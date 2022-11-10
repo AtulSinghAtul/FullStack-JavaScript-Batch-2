@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/fb22eebb87.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Nav Header Main Section Footer Ul Li HTML Elements</title>
+    <style>
+      nav > ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        background-color: rgb(176, 248, 235);
+        padding: 20px 0;
+      }
+      header {
+        background-color: rgb(220, 243, 157);
+        max-width: 100%;
+      }
+      img {
+        display: block;
+        width: 100vw;
+        height: 30vh;
+        object-fit: cover;
+      }
+      img[src="images/HTML BLOG.jpg"] {
+        width: 100%;
+        height: 100%;
+      }
+
+      footer > div {
+        display: flex;
+        justify-content: space-around;
+        padding: 2.5rem 0;
+        margin-top: 200px;
+        background-color: blanchedalmond;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>School</li>
+        <li>Career</li>
+        <li>Sign In</li>
+      </ul>
+    </nav>
+    <header>
+      <figure>
+        <img
+          class="img1"
+          src="https://images.unsplash.com/photo-1667819576336-e78d61b5f2e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+          alt="img"
+        />
+        <figcaption><cite>Harry Porter</cite>: Jhon Vick</figcaption>
+      </figure>
+    </header>
+    <main>
+      <section>
+        <blockquote cite="https://www.berries.com/blog/positive-quotes">
+          What are the Best Positive Quotes? Looking for a way to lift someone’s
+          spirits? Positive quotes or words of encouragement can inspire anyone.
+          Whether it’s your lifelong best friend or a stranger you pass on the
+          street, taking a moment to deliver a positive and inspirational
+          <dl>
+            <dt>taking a moment:</dt>
+            <dd>
+              In addition to being a mood-booster, giving and receiving
+              compliments and positive quotes has uplifting effects on both
+              parties.
+            </dd>
+
+            <dt>Looking for a way:</dt>
+            <dd>
+              As the giver, giving a compliment can boost your self-confidence
+              as well as enhance your social skills and spark creativity.
+            </dd>
+          </dl>
+          message can have a long-lasting effect on the well-being of both
+          individuals. Lift someone’s spirits by checking out these special
+          positive <cite>quotes of the day</cite>: long-lasting effect .
+        </blockquote>
+      </section>
+
+      <section>
+        <img src="images/HTML BLOG.jpg" usemap="#image-map" />
+
+        <map name="image-map">
+          <area
+            onclick="atul1()"
+            target=""
+            alt=""
+            title=""
+            href=""
+            coords="1201,421,1525,685"
+            shape="rect"
+          />
+          <area
+            onclick="atul2()"
+            target=""
+            alt=""
+            title=""
+            href=""
+            coords="438,445,740,666"
+            shape="rect"
+          />
+        </map>
+      </section>
+
+      <section>
+        <hgroup>
+          <h1>Lorem ipsum, dolor sit amet consectetur</h1>
+          <h3>
+            adipisicing elit. Unde accusantium sed, facere culpa voluptatem
+            aliquid
+          </h3>
+          <p>
+            odit commodi nemo eum. Saepe in debitis similique quibusdam? Et
+            cumque ab odit distinctio quibusdam?
+          </p>
+        </hgroup>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-solid fa-laptop-code"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </footer>
+
+    <script>
+      function atul1() {
+        alert("HTML");
+      }
+
+      function atul2() {
+        alert("CSS");
+      }
+    </script>
+  </body>
+</html>

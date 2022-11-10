@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anchor & Image HTML Element</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+      }
+      ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+        color: rgb(8, 0, 255);
+        font-size: 3vw;
+        background-color: rgb(107, 248, 248);
+        padding: calc(25px + 2vw) 0;
+      }
+      a {
+        text-decoration: none;
+        font-weight: 800;
+      }
+      img:nth-child(2) {
+        width: 100%;
+        border: 10px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Anchor HTML Element</h1>
+
+    <nav>
+      <ul>
+        <li>
+          <a
+            target="_blank"
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup"
+            >Google</a
+          >
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup"
+            >Facebook</a
+          >
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup"
+            >MDN</a
+          >
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup"
+            >Youtube</a
+          >
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup"
+            >Instagram</a
+          >
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup"
+            >LinkedIn</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Image HTML Element</h1>
+      <section>
+        <img
+          src="https://images.unsplash.com/photo-1516727052521-08079c40df80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+          alt="img"
+        />
+
+        <img
+          src="images/medeea-codalbu-MsZAsMw-cfo-unsplash.jpg"
+          srcset="
+            images/unsplash-400.jpg     400w,
+            images/unsplash-2-800.jpg   800w,
+            images/unsplash-3-1500.jpg 1000w
+          "
+        />
+
+        <img
+          srcset="
+            images/unsplash-400.jpg     400w,
+            images/unsplash-2-800.jpg   800w,
+            images/unsplash-3-1500.jpg 1000w
+          "
+          sizes="(max-width: 400px) 400px, 800px "
+        />
+        <!-- usemap & ismap attribute -->
+        <img
+          src="https://images.unsplash.com/photo-1667927797723-ece186807c01?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+          usemap="#atul"
+        />
+        <map name="atul">
+          <area
+            title=" this child is jhony dape"
+            target="_blank"
+            shape="ract"
+            coords="55,48,216,208"
+            href="https://images.unsplash.com/photo-1667860920650-d23d24c0e4de?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+        </map>
+      </section>
+    </main>
+  </body>
+</html>
