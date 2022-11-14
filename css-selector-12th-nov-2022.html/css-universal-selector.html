@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+
+    <style>
+      /* style using normal css*/
+      /* I am giving here border in  all html elements using other css selector */
+
+      /* p,
+      div,
+      body,
+      html {
+        margin: 25px;
+        border: 4px solid #ff592f;
+      } */
+
+      /* So insted of using p,div,body,html we want use only Astrick(*) css selector. */
+      * {
+        margin: 25px;
+        border: 4px solid #ff592f;
+      }
+      /*Note:- You can see difference using comment or uncomment one of them selector */
+    </style>
+  </head>
+  <body>
+    <!-- Universal Selector -->
+
+    <div>
+      <p>Lorem ipsum dolor sit, amet consectetur omnis!</p>
+      <p>Lorem ipsum dolor sit, amet consectetur omnis!</p>
+      <p>Lorem ipsum dolor sit, amet consectetur omnis!</p>
+      <p>Lorem ipsum dolor sit, amet consectetur omnis!</p>
+    </div>
+  </body>
+</html>
