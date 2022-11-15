@@ -7,32 +7,26 @@
     <title>Chained Selector</title>
 
     <style>
-      /* chained selector */
-      h2,
-      .text_color,
-      #font_color,
-      p {
-        margin: 25px;
-        padding: 25px;
+      div {
+        margin: 50px;
+      }
+
+      p.chained.selector#selectors {
+        font-weight: 900;
+        font-size: 20px;
         color: red;
-        background-color: rgb(142, 239, 236);
       }
     </style>
   </head>
   <body>
     <div>
-      <h2>Chained Selector</h2>
-      <p class="text_color">Lorem ipsum dolor sit amet consectetur.</p>
+      <p class="chained selector" id="selectors">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis!
+      </p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis!</p>
+      <p class="chained selector">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis!
+      </p>
     </div>
-
-    <p id="font_color">Lorem ipsum dolor sit.</p>
-
-    <ul>
-      <li>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam!
-        </p>
-      </li>
-    </ul>
   </body>
 </html>
