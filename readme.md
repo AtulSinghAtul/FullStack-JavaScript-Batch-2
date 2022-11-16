@@ -1,7 +1,7 @@
-# Fullstack Javascript Batch 2
+# Fullstack Javascript Batch-2 Start From 1 November 2022 
 
 ---
 
-- ## About all HTML Element with example.
+- ## All live class assignment and homework file is available here.
 
-- _For reading you find here all block level element and inline element._
+- if you want to read article related to the assignment topic, _so click in thi link:_ [All Assignment Article](https://atulsinghatul.hashnode.dev/)
