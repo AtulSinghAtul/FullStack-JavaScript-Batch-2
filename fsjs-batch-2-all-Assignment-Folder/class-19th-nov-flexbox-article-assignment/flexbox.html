@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox ?</title>
+
+    <style>
+      nav {
+        border: 4px solid black;
+      }
+      /* Flex Container => Parent */
+      ul {
+        display: flex; /* blcok level container*/
+
+        /* flex direction property */
+        /* flex-direction: row; */
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column; */
+        /* flex-direction: column-reverse; */
+        /* flex-wrap: wrap; */
+
+        /* Shorthand property */
+        flex-flow: row wrap;
+
+        /* justify-content: center; */
+        /* justify-content: flex-start; */
+        /* justify-content: flex-end; */
+        /* justify-content: space-between; */
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+
+        /* align-items: stretch; */
+        /* align-items: center; */
+        /* align-items: baseline; */
+        /* align-items: flex-start; */
+        /* align-items: flex-end; */
+
+        /* align-content: stretch; */
+        /* align-content: flex-start; */
+        /* align-content: flex-end; */
+        /* align-content: space-around; */
+        /* align-content: space-between; */
+        /* align-content: space-evenly; */
+        /* align-content: center; */
+
+        column-gap: 40px;
+        list-style: none;
+        background-color: rgb(183, 249, 113);
+        padding: 0;
+        margin: 0;
+        height: 500px;
+      }
+
+      /* Flex Item => Children */
+      li {
+        background-color: aliceblue;
+        padding: 10px 25px;
+        font-size: 30px;
+        font-weight: 800;
+        width: 140px;
+        height: 60px;
+        margin: 5px;
+      }
+
+      /* order property */
+      /* li:nth-child(3) {
+       order: 0;
+      }
+      li:nth-child(4) {
+        order: 1;
+      }
+      li:nth-child(5) {
+        order: 2;
+      }
+      li:nth-child(1) {
+        order: 3;
+      }
+      li:nth-child(2) {
+        order: 4;
+      } */
+
+      /* flex grow property */
+      /* li:nth-child(1) {
+        flex-grow: 1;
+      }
+      li:nth-child(2) {
+        flex-grow: 2;
+      }
+      li:nth-child(3) {
+        flex-grow: 4;
+      }
+      li:nth-child(4) {
+        flex-grow: 1;
+      } */
+      /* li:nth-child(5) {
+        flex-grow: 1;
+      } */
+
+      /* flex shrink property */
+      /* li:nth-child(1) {
+        flex-shrink: 4;
+      }
+      li:nth-child(2) {
+        flex-shrink: 1;
+      }
+      li:nth-child(3) {
+        flex-shrink: 0;
+      }
+      li:nth-child(4) {
+        flex-shrink: 4;
+      }
+      li:nth-child(5) {
+        flex-shrink: 2;
+      } */
+      /* li:nth-child(6) {
+        flex-shrink: 2;
+      }
+      li:nth-child(7) {
+        flex-shrink: 2;
+      }
+      li:nth-child(8) {
+        flex-shrink: 2;
+      }
+      li:nth-child(9) {
+        flex-shrink: 2;
+      }
+      li:nth-child(10) {
+        flex-shrink: 2;
+      } */
+
+      /* flex basis property */
+
+      /* li:nth-child(1) {
+        flex-grow: 2;
+      }
+
+      li:nth-child(3) {
+        flex-basis: 400px;
+      } */
+
+      /* Flex-Container*/
+      ul {
+        align-items: center;
+      }
+
+      /* Align-self property */
+      /* li:nth-child(3) {
+        align-self: auto;
+      } */
+
+      /* li:nth-child(3) {
+        align-self: center;
+      } */
+      /* 
+      li:nth-child(3) {
+        align-self: flex-start;
+      } */
+
+      /* li:nth-child(3) {
+        align-self: flex-end;
+      } */
+
+      /* li:nth-child(3) {
+        align-self: baseline;
+      }
+      li:nth-child(4) {
+        padding: 40px 80px;
+        align-self: baseline;
+      } */
+
+      /* Flex- Shorthand property*/
+      li:nth-child(1) {
+        flex: 1;
+      }
+      li:nth-child(2) {
+        flex: 3 7;
+      }
+      li:nth-child(3) {
+        flex: 5 9 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>1 Home</li>
+        <li>2 About</li>
+        <li>3 Student</li>
+        <!-- <li>4 Home</li>
+        <li>5 About</li> -->
+        <!-- <li>6 Home</li>
+        <li>7 About</li>
+        <li>8 Student</li>
+        <li>9 Home</li>
+        <li>10 About</li> -->
+      </ul>
+    </nav>
+  </body>
+</html>
