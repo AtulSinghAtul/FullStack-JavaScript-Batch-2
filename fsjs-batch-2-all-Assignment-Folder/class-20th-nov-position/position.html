@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Property | Article</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(207, 245, 151);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+
+        width: 1000px;
+        height: 600px;
+        background-color: rgb(168, 169, 169);
+        color: yellow;
+        font-size: 40px;
+        font-weight: 700;
+      }
+
+      .child {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+      }
+
+      .child1 {
+        background-color: rgb(105, 197, 247);
+      }
+      /* In child2 apply position property */
+      .child2 {
+        background-color: rgb(240, 48, 10);
+        /* position: static; */
+        /* position: relative; */
+        /* position: absolute; */
+        /* position: fixed; */
+        position: sticky;
+        top: 100px;
+        /* left: 20px; */
+      }
+      .child22 {
+        background-color: rgb(3, 104, 6);
+        position: sticky;
+        bottom: 150px;
+        /* left: 20px; */
+      }
+      .child3 {
+        background-color: rgb(118, 217, 244);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- position: static; => default -->
+
+    <div class="parent">
+      <p>parent container 1</p>
+      <div class="child child1">A</div>
+      <div class="child child2">B</div>
+      <div class="child child3">C</div>
+    </div>
+    <div class="parent">
+      <p>parent container 2</p>
+      <div class="child child1">A</div>
+      <div class="child child22">B</div>
+      <div class="child child3">C</div>
+    </div>
+    <div class="parent">
+      <p>parent container 3</p>
+    </div>
+    <div class="parent">
+      <p>parent container 4</p>
+    </div>
+  </body>
+</html>
