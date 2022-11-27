@@ -20,4 +20,4 @@
 
 Project Screenshot :-
 
-![LCO](./Project%2003/output.png)
+![LCO](./output.png)
