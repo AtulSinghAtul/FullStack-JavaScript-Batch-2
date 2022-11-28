@@ -1,6 +1,6 @@
 # Project- 02
 
-[Live Link](https://ineuron-live-class-project-5.netlify.app/ "Netlify")
+[Live Link](https://20th-nov-fsjs-batch-2-project-02.netlify.app/)
 
 ## Name : Atul Singh
 
