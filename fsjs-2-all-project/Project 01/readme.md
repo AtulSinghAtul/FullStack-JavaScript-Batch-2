@@ -1,6 +1,5 @@
 # Project- 01
 
-**Name: Atul Singh**
 
 [Live Link](https://20th-nov-fsjs-batch-2-project-01.netlify.app/)
 
