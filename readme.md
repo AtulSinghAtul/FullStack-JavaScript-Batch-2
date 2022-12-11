@@ -2,9 +2,6 @@
 
 ---
 
-
-- ## All live class assignment, projects and homework file is available here.
-
 - ## All live class article assignment, projects and homework file is available here.
 
 
