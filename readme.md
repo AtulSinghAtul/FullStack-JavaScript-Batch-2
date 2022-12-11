@@ -2,9 +2,14 @@
 
 ---
 
+<<<<<<< HEAD
 - ## All live class assignment, projects and homework file is available here.
 
 - ## All live class article assignment, projects and homework file is available here.
+=======
+- ## All live class article assignment, projects and homework file is available here.
+
+>>>>>>> 4d022c0f6c0d41ca8ebbae71dfb6447e817793f1
 
 - if you want to read article related to the assignment topic, _so click on the below link:_
 - ## [All Assignment Article](https://atulsinghatul.hashnode.dev/)
