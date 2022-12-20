@@ -146,14 +146,29 @@
 
 // join() Method
 
-let num = [1, 2, 3, 4, 5, 6];
-console.log(typeof num); // object
-console.log(num);
-console.log(num.join()); //1,2,3,4,5,6
-console.log(num.join("")); //123456
-console.log(num.join(" ")); //1 2 3 4 5 6
+//let num = [1, 2, 3, 4, 5, 6];
+//console.log(typeof num); // object
+//console.log(num);
+//console.log(num.join()); //1,2,3,4,5,6
+//console.log(num.join("")); //123456
+//console.log(num.join(" ")); //1 2 3 4 5 6
 // let chect the datatype of the join method
 // join method converted output into string
-let var1 = num.join(" | ");
-console.log(var1); //1 | 2 | 3 | 4 | 5 | 6
-console.log(typeof var1); //string
+//let var1 = num.join(" | ");
+//console.log(var1); //1 | 2 | 3 | 4 | 5 | 6
+//console.log(typeof var1); //string
+
+//lastIndexOf Method
+let arr = [1, 2, 3, 4, "atul", 5, 6, "atul", 7, 8, "atul"];
+//start searches the value from last index because last index of start searches from last indexes
+console.log(arr.lastIndexOf("atul")); // 10
+
+//lastIndexOf() with two Parameters
+
+// second argument specifies the starting index
+// from where the method searches the element backward
+console.log(arr.lastIndexOf("atul", 8)); // 7
+
+// lastIndexOf() with Negative Parameter
+// start the searches from last
+console.log(arr.lastIndexOf("atul", -5)); //4
