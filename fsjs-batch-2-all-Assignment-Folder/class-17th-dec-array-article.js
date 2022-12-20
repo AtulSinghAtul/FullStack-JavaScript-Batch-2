@@ -112,3 +112,7 @@ console.log(languages.includes("Java", 0)); //true
 // the search starts from third last element
 console.log(languages.includes("Java", -1)); //false
 console.log(languages.includes("Java", -2)); //true
+
+//include method is case sensitive
+console.log(languages.includes("java")); //false
+console.log(languages.includes("Java")); //true
