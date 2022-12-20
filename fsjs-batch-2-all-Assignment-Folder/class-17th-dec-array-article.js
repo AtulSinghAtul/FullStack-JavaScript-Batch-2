@@ -100,19 +100,60 @@
 //includes() Method
 
 // defining an array
-let languages = ["JavaScript", "Java", "C"];
+//let languages = ["JavaScript", "Java", "C"];
 //checking the array is containig "Java" or not
-console.log(languages.includes("Java")); //true
+//console.log(languages.includes("Java")); //true
 //checking the array is containig "C++" or not
-console.log(languages.includes("C++")); //false
+//console.log(languages.includes("C++")); //false
 // second argument specifies position to start the search
-console.log(languages.includes("Java", 2)); //false
-console.log(languages.includes("Java", 1)); //true
-console.log(languages.includes("Java", 0)); //true
+//console.log(languages.includes("Java", 2)); //false
+//console.log(languages.includes("Java", 1)); //true
+//console.log(languages.includes("Java", 0)); //true
 // the search starts from third last element
-console.log(languages.includes("Java", -1)); //false
-console.log(languages.includes("Java", -2)); //true
+//console.log(languages.includes("Java", -1)); //false
+//console.log(languages.includes("Java", -2)); //true
 
 //include method is case sensitive
-console.log(languages.includes("java")); //false
-console.log(languages.includes("Java")); //true
+//console.log(languages.includes("java")); //false
+//console.log(languages.includes("Java")); //true
+
+//indexOf() Method
+//let languages = ["Java", "Python", "JavaScript", "C", "JavaScript"];
+
+// get the index of the first occurrence of "JavaScript"
+//let index = languages.indexOf("JavaScript");
+//console.log(index); // 2
+// index start from 1 to searching value
+//let index1 = languages.indexOf("JavaScript", 1);
+//console.log(index1); // 2
+// index start from 3 to searching value
+//let index2 = languages.indexOf("JavaScript", 3);
+//console.log(index2); // 4
+
+// isArray() Method
+//let num = [1, 2, 3, 4];
+//console.log(Array.isArray(num)); // true
+// passing an simple variable
+//let num1 = 2;
+//console.log(Array.isArray(num1)); // false
+// passing an empety array
+//console.log(Array.isArray([])); // true
+
+// we creted array with element 5 and passed that value to isArray()
+//console.log(Array.isArray(new Array(5))); // true
+//passing undefined value to isArray()
+//console.log(Array.isArray(undefined)); // false
+
+// join() Method
+
+let num = [1, 2, 3, 4, 5, 6];
+console.log(typeof num); // object
+console.log(num);
+console.log(num.join()); //1,2,3,4,5,6
+console.log(num.join("")); //123456
+console.log(num.join(" ")); //1 2 3 4 5 6
+// let chect the datatype of the join method
+// join method converted output into string
+let var1 = num.join(" | ");
+console.log(var1); //1 | 2 | 3 | 4 | 5 | 6
+console.log(typeof var1); //string
