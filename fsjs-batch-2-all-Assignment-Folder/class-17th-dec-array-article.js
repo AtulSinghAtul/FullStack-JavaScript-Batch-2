@@ -243,3 +243,36 @@
 //console.log(num); //[343, 67, 45, 21, 8, 8, 7, 4, 0]
 
 //split() Method
+// converting to the array
+// let name = "Atul";
+// console.log(name.split(""));
+// console.log(name.split());
+
+// for of Method
+
+//let upperName = ["atul", "singh"];
+
+// let pus = [];
+// for (const iterator of upperName) {
+//   pus.push(iterator.toUpperCase());
+// }
+//console.log(pus); //[ 'ATUL', 'SINGH' ]
+
+//break and continue
+//break
+// for (let i = 0; i < 10; i++) {
+//   if (i == 3) {
+//     // console.log(i);
+//     break; // simply break  out of the block
+//   }
+//   console.log(i);
+// }
+
+//continue
+for (let i = 0; i < 6; i++) {
+  if (i == 3) {
+    // console.log(i);
+    continue; // simply continue means to skip at the point where will check condition
+  }
+  console.log(i);
+}
