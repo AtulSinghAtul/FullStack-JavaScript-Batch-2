@@ -15,7 +15,7 @@
 - ## [Project- 04](https://github.com/AtulSinghAtul/fsjs2-26th-Nov-Project-04)
 - ## [Project- 05](https://github.com/AtulSinghAtul/fsjs2-26th-Nov-Project-05)
 - ## [Project- 06](https://github.com/AtulSinghAtul/fsjs2-26th-Nov-Project-06)
-- ## [Project- 07](https://github.com/AtulSinghAtul/fsjs2-27th-nov-project-07-tailwid)
+- ## [Project- 07 VS Code Website Clone](https://github.com/AtulSinghAtul/fsjs2-27th-nov-project-07-tailwid)
 - ## [Project- 08](https://github.com/AtulSinghAtul/fsjs2-12th-Dec-Project-08)
 - ## [Project- 09](https://github.com/AtulSinghAtul/fsjs2-12th-Dec-Project-09)
 - ## [Project- 10](https://github.com/AtulSinghAtul/fsjs2-12th-Dec-Project-10)
@@ -44,7 +44,7 @@
 - ## [Project- 15](https://github.com/AtulSinghAtul/live-class-project-15)
 - ## [Project- 16 Paytm-Website-Clone](https://github.com/AtulSinghAtul/Project-16-Paytm-Website-Clone)
 - ## [Project- 17 Shopify-Website-Clone](https://github.com/AtulSinghAtul/Project-17-Shopify-Website-Clone)
-- ## [Project- 18 Rode-clone](https://github.com/AtulSinghAtul/Project-18-Rode-clone-project)
+- ## [Project- 18 Rode-Website-clone](https://github.com/AtulSinghAtul/Project-18-Rode-clone-project)
 
 ---
 
