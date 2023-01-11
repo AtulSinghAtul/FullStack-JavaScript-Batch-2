@@ -15,13 +15,13 @@
 - ## [Project- 04](https://github.com/AtulSinghAtul/fsjs2-26th-Nov-Project-04)
 - ## [Project- 05](https://github.com/AtulSinghAtul/fsjs2-26th-Nov-Project-05)
 - ## [Project- 06](https://github.com/AtulSinghAtul/fsjs2-26th-Nov-Project-06)
-- ## [Project- 07 VS Code Website Clone](https://github.com/AtulSinghAtul/fsjs2-27th-nov-project-07-tailwid)
-- ## [Project- 08](https://github.com/AtulSinghAtul/fsjs2-12th-Dec-Project-08)
-- ## [Project- 09](https://github.com/AtulSinghAtul/fsjs2-12th-Dec-Project-09)
-- ## [Project- 10](https://github.com/AtulSinghAtul/fsjs2-12th-Dec-Project-10)
-- ## [Project- 11](https://github.com/AtulSinghAtul/fsjs2-12th-Dec-Project-11)
-- ## [Project- 12](https://github.com/AtulSinghAtul/fsjs2-12th-Dec-Project-12)
-- ## [Project- 13](https://github.com/AtulSinghAtul/fsjs2-12th-Dec-Project-13)
+- ## [Project- 07 VS Code Website Clone](https://github.com/AtulSinghAtul/fsjs2-27th-nov-project-07-tailwid) - Project is responsive!!
+- ## [Project- 08](https://github.com/AtulSinghAtul/fsjs2-12th-Dec-Project-08) - Project is responsive!!
+- ## [Project- 09](https://github.com/AtulSinghAtul/fsjs2-12th-Dec-Project-09) - Project is responsive!!
+- ## [Project- 10](https://github.com/AtulSinghAtul/fsjs2-12th-Dec-Project-10) - Project is responsive!!
+- ## [Project- 11](https://github.com/AtulSinghAtul/fsjs2-12th-Dec-Project-11) - Project is responsive!!
+- ## [Project- 12](https://github.com/AtulSinghAtul/fsjs2-12th-Dec-Project-12) - Project is responsive!!
+- ## [Project- 13](https://github.com/AtulSinghAtul/fsjs2-12th-Dec-Project-13) - Project is responsive!!
 
 ---
 
@@ -33,18 +33,18 @@
 - ## [Project- 04](https://github.com/AtulSinghAtul/Live-class-project-4)
 - ## [Project- 05](https://github.com/AtulSinghAtul/Live-class-project-5)
 - ## [Project- 06](https://github.com/AtulSinghAtul/Live-class-project-6)
-- ## [Project- 07](https://github.com/AtulSinghAtul/Live-class-project-7)
-- ## [Project- 08](https://github.com/AtulSinghAtul/Live-class-project-8)
-- ## [Project- 09](https://github.com/AtulSinghAtul/-Live-class-project-9)
-- ## [Project- 10](https://github.com/AtulSinghAtul/Live-class-project-10)
-- ## [Project- 11](https://github.com/AtulSinghAtul/Live-class-project-11)
-- ## [Project- 12](https://github.com/AtulSinghAtul/Live-class-project-12)
-- ## [Project- 13](https://github.com/AtulSinghAtul/-Live-class-project-13)
-- ## [Project- 14](https://github.com/AtulSinghAtul/Live-class-project-14-)
-- ## [Project- 15](https://github.com/AtulSinghAtul/live-class-project-15)
-- ## [Project- 16 Paytm-Website-Clone](https://github.com/AtulSinghAtul/Project-16-Paytm-Website-Clone)
-- ## [Project- 17 Shopify-Website-Clone](https://github.com/AtulSinghAtul/Project-17-Shopify-Website-Clone)
-- ## [Project- 18 Rode-Website-clone](https://github.com/AtulSinghAtul/Project-18-Rode-clone-project)
+- ## [Project- 07](https://github.com/AtulSinghAtul/Live-class-project-7) - Project is responsive!!
+- ## [Project- 08](https://github.com/AtulSinghAtul/Live-class-project-8) - Project is responsive!!
+- ## [Project- 09](https://github.com/AtulSinghAtul/-Live-class-project-9) - Project is responsive!!
+- ## [Project- 10](https://github.com/AtulSinghAtul/Live-class-project-10) - Project is responsive!!
+- ## [Project- 11](https://github.com/AtulSinghAtul/Live-class-project-11) - Project is responsive!!
+- ## [Project- 12](https://github.com/AtulSinghAtul/Live-class-project-12) - Project is responsive!!
+- ## [Project- 13](https://github.com/AtulSinghAtul/-Live-class-project-13) - Project is responsive!!
+- ## [Project- 14](https://github.com/AtulSinghAtul/Live-class-project-14-) - Project is responsive!!
+- ## [Project- 15](https://github.com/AtulSinghAtul/live-class-project-15) - Project is responsive!!
+- ## [Project- 16 Paytm-Website-Clone](https://github.com/AtulSinghAtul/Project-16-Paytm-Website-Clone) - Project is responsive!!
+- ## [Project- 17 Shopify-Website-Clone](https://github.com/AtulSinghAtul/Project-17-Shopify-Website-Clone) - Project is responsive!!
+- ## [Project- 18 Rode-Website-clone](https://github.com/AtulSinghAtul/Project-18-Rode-clone-project) - Project is responsive!!
 
 ---
 
