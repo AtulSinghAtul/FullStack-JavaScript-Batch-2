@@ -1,4 +1,4 @@
-// first way
+// first way to write function
 // function atul(arr) {
 //   console.log(arr);
 //   let sum = 0;
