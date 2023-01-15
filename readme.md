@@ -5,7 +5,8 @@
 - ## All live class assignment, projects and homework file is available here.
 
 - if you want to read article related to the assignment topic, _so click on the below link:_
-- ## [All Assignment Article](https://atulsinghatul.hashnode.dev/)
+
+- ## [All Articles](https://atulsinghatul.hashnode.dev/)
 
 > ## ** FSJS Batch-2 All Project Link**
 
