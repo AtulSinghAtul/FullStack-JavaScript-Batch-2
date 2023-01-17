@@ -9,7 +9,7 @@
 - ## [All Articles](https://atulsinghatul.hashnode.dev/)
 
 > ## ** FSJS Batch-2 All Project Link**
-- ## [JavaScript Assignment All 30 question ](https://github.com/AtulSinghAtul/fsjs2-20th-Nov-Project-01)
+- ## [JavaScript Assignment All 30 questions ](https://github.com/AtulSinghAtul/fsjs2-20th-Nov-Project-01)
 - ## [Project- 01 ](https://github.com/AtulSinghAtul/fsjs2-20th-Nov-Project-01)
 - ## [Project- 02](https://github.com/AtulSinghAtul/fsjs2-20th-Nov-Project-02)
 - ## [Project- 03](https://github.com/AtulSinghAtul/fsjs2-20th-Nov-Project-03)
