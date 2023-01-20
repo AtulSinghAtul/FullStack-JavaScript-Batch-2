@@ -49,16 +49,22 @@ function patternsA(params) {
   let str = "";
   for (let row = 1; row <= params; row++) {
     for (let col = params; col > row; col--) {
+      if (col < 2 && col > 2) {
+        str = str + " ";
+      } else {
+        str = str + " ";
+      }
       // document.write("*");
-      str = str + " ";
     }
     // newline after each row
     for (let i = 0; i < row * 2 - 1; i++) {
       str += "*";
     }
-    str = str + "<br>";
+    // str = str + "<br>";
+    str = str + "\n";
   }
-  document.write(str);
+  console.log(str);
+  // document.write(str);
   // console.log(str);
 }
 patternsA(3);
