@@ -105,7 +105,9 @@ function constructor(nam) {
   obj.name = nam;
 
   obj.constructMethod = function () {
+    
     console.log(`Hi i'm ${this.name}`);
+    
   };
   return obj;
 }
@@ -113,6 +115,7 @@ function constructor(nam) {
 const atul = constructor("atul");
 
 console.log(atul.name); //atul
+
 console.log(atul.constructMethod()); //Hi i'm atul
 
 /////////// second object/////////////
@@ -126,6 +129,7 @@ console.log(mohan.constructMethod()); //Hi i'm Mohan Singh
 function Person(name) {
   this.name = name;
   this.giveIntroSelf = function () {
+    
     console.log(`Hi! I'm ${this.name}.`);
   };
 }
