@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>22 JAN DOM MANIPULATION</title>
+    <style>
+      .heading {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1></h1>
+    <ul></ul>
+    <button onclick="math()" class="fsjs2">Submit</button>
+    <p class="para2"></p>
+    <script>
+      document.body.querySelector("h1").classList.add("heading");
+      document.body.querySelector(".heading").innerText =
+        "Hello Javascript Bootcamp";
+      //insert inner html
+      const list = `
+            <li>Atul</li>
+            <li>Singh</li>
+            <li>Vipin</li>
+      `;
+
+      let li = document.querySelector("ul");
+      li.innerHTML = list;
+
+      //create element on screen
+      let heading2 = document.createElement("h2");
+      heading2.className = "second-heading";
+      heading2.textContent = "Creating New Element in DOM Day 2";
+      heading2.style.color = "green";
+      console.log(heading2);
+      // append child
+      document.body.appendChild(heading2);
+      //remove child
+      document.body.removeChild(li);
+
+      //for loop
+
+      for (let i = 0; i < 3; i++) {
+        let para = document.createElement("p");
+        para.textContent = i;
+        document.body.appendChild(para);
+      }
+
+      function math() {
+        let value = prompt("50-30");
+        if (value == 20) {
+          alert("if section");
+          document.getElementById("fsjs2").style.backgroundColor = "green";
+
+          document.getElementById("para2").innerText = "Right Answer";
+        } else {
+          alert("else section");
+          document.getElementById("fsjs2").style.backgroundColor = "red";
+
+          document.getElementById("para2").innerText = "fail try again";
+        }
+      }
+    </script>
+  </body>
+</html>
