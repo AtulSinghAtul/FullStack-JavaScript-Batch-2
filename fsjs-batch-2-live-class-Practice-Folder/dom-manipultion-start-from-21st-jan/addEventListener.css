@@ -9,7 +9,7 @@ body {
 #button {
   cursor: pointer;
   background-color: #fff;
-  /* display: block; */
+
   padding: 25px;
   border-radius: 25px;
   background-color: rgb(2, 102, 102);
