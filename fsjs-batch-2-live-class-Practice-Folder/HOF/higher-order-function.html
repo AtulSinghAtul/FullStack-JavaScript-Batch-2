@@ -83,11 +83,25 @@
         return output;
       };
 
-      console.log(calculate(radius, area));
+      //console.log(calculate(radius, area));
 
-      console.log(calculate(radius, circumfrance));
+      //console.log(calculate(radius, circumfrance));
 
-      console.log(calculate(radius, diameter));
+      //console.log(calculate(radius, diameter));
+
+      //make polyfills of map
+      //we will make own map method
+      Array.prototype.atulKaMap = function (passLogic) {
+        const output = [];
+        for (let i = 0; i < this.length; i++) {
+          output.push(passLogic(this[i]));
+        }
+        return output;
+      };
+
+      //our map() method do also same act like up code, so we make own map() method
+      console.log(radius.map(area));
+      console.log(radius.atulKaMap(area)); // we can say we create our own map method
     </script>
   </body>
 </html>
