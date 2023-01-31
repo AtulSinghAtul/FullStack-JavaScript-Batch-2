@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Higher Order Function</title>
+  </head>
+  <body>
+    <script>
+      //Higher Order Function
+
+      //Simple Example
+
+      function x() {
+        //This is Callback function
+        console.log("Namaste JavaScript");
+      }
+
+      function y(x) {
+        // This is HOF
+        x();
+      }
+
+      //Real Life Example of HOF
+
+      // Here we use general method to do some operation
+      let radius = [3, 1, 2, 4];
+
+      //calculate circle area
+      const areaOfCircle = function (r) {
+        let output = [];
+        for (let i = 0; i < r.length; i++) {
+          output.push(Math.PI * r[i] ** 2);
+        }
+        return output;
+      };
+      //console.log(areaOfCircle(radius));
+
+      //calculate circumference
+      const calculateCircumference = function (r) {
+        const output = [];
+        for (let i = 0; i < r.length; i++) {
+          output.push(2 * Math.PI * r[i]);
+        }
+        return output;
+      };
+      //console.log(calculateCircumference(radius));
+
+      //calculate diameter
+      const calclateDiameter = function (r) {
+        const output = [];
+        for (let i = 0; i < r.length; i++) {
+          output.push(2 * r[i]);
+        }
+        return output;
+      };
+      //console.log(calclateDiameter(radius));
+
+      //////////We can do upper operation by HOF //////////
+      radius = [3, 1, 2, 4];
+      // calculate area
+      const area = function (r) {
+        return Math.PI * r ** 2;
+      };
+
+      // calculate circumfrance
+      const circumfrance = function (r) {
+        return 2 * Math.PI * r;
+      };
+
+      // calculate diameter
+      const diameter = function (r) {
+        return 2 * r;
+      };
+
+      // this is main HOF function
+      const calculate = function (r, passLogic) {
+        const output = [];
+        for (let i = 0; i < r.length; i++) {
+          output.push(passLogic(r[i]));
+        }
+        return output;
+      };
+
+      console.log(calculate(radius, area));
+
+      console.log(calculate(radius, circumfrance));
+
+      console.log(calculate(radius, diameter));
+    </script>
+  </body>
+</html>
