@@ -6,7 +6,7 @@
 
 
 
-- ### [All Articles](https://atulsinghatul.hashnode.dev/)
+- #### [All Articles & Blogs Link](https://atulsinghatul.hashnode.dev/)
 
 > ## ** FSJS Batch-2 All Project Link**
 
