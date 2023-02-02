@@ -53,3 +53,30 @@ getBackPlaceholderValue.placeholder = "Search";
 //Get back footer icon
 let getBackFooterIcon = (document.querySelector("footer ul").style.visibility =
   "visible");
+
+///////////////// TASK -04 ///////////////////////////
+
+/* add another image */
+let targetImageDiv = document.querySelector(".hero-right-section img");
+targetImageDiv.src = "./ATUL-SINGH-DP-PIC.jpeg";
+targetImageDiv.style.objectFit = "contain";
+targetImageDiv.style.backgroundColor = "rgb(0, 135, 135, 0.4)";
+
+///////////////// TASK -05 ///////////////////////////
+
+/* Create support me button in header right section and get back image */
+
+//get back image
+let getBackImage = document.querySelector(".hero-right-section img");
+targetImageDiv.src = "./avtar.png";
+
+// create support me button
+let createButton = document.createElement("button");
+//create text node
+let buttonText = document.createTextNode("Support Me");
+// append eachother
+let appendEachother = createButton.appendChild(buttonText);
+console.log(appendEachother);
+
+let appendInBodyDiv = document.querySelector(".hero-right-section-btns");
+appendInBodyDiv.appendChild(createButton);
