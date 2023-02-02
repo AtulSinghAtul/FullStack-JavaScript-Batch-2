@@ -1,3 +1,4 @@
+// TASK - 01
 /*  change li value Contacts to Projects*/
 let targetNavUlLi = document
   .querySelector("nav")
@@ -15,16 +16,24 @@ for (let i = 0; i < targetNavUlLi.length; i++) {
 // create li element
 let li = document.createElement("li");
 
-/* create text --> we use
- let text = (li.textContent = "Hire Me");
- console.log(text);*/
-
 //Create a text node:
-let text = document.createTextNode("Hired");
+let text = document.createTextNode("Hire Me");
 // Append the text node to the "li" node:
 li.appendChild(text);
 // Append the "li" node to the list:
 console.log(document.querySelector("nav > ul").appendChild(li));
 
 //hide footer icon
-document.querySelector("footer > ul").style.display = "none";
+document.querySelector("footer > ul").style.visibility = "hidden";
+
+///////////////// TASK -02 ////////////////////////////
+/* Hide hire me li and change the button placeholder value */
+
+let hideHireMe = (document.querySelector(
+  "nav > ul > li:last-child"
+).style.visibility = "hidden");
+
+// change the placeholder value
+let changePlaceHolderValue = document.querySelector("nav > div >input");
+
+changePlaceHolderValue.placeholder = "Search My Project";
