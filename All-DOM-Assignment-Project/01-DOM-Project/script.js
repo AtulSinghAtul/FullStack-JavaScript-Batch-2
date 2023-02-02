@@ -34,6 +34,22 @@ let hideHireMe = (document.querySelector(
 ).style.visibility = "hidden");
 
 // change the placeholder value
-let changePlaceHolderValue = document.querySelector("nav > div >input");
+let changePlaceHolderValue = document.querySelector("nav > div > input");
 
 changePlaceHolderValue.placeholder = "Search My Project";
+
+///////////////// TASK -03 ////////////////////////////
+/* Get back placeholder value(search) and footer icon and hide the li value(hire me) */
+
+//hide the li value(hire me)
+let hideHireMeLi = (document.querySelector(
+  "nav >ul >li:last-child"
+).style.visibility = "hidden");
+
+//Get back placeholder value(search)
+let getBackPlaceholderValue = document.querySelector("nav div input");
+getBackPlaceholderValue.placeholder = "Search";
+
+//Get back footer icon
+let getBackFooterIcon = (document.querySelector("footer ul").style.visibility =
+  "visible");

@@ -47,7 +47,7 @@ document.querySelector("footer > ul").style.visibility = "hidden";
 
 # Task-02
 
-![task-01-img](./firstAssignmentImage/task1Output.png)
+![task-02-img](./firstAssignmentImage/task2Output.png)
 
 ```
 /* Hide hire me li and change the button placeholder value */
@@ -60,5 +60,29 @@ let hideHireMe = (document.querySelector(
 let changePlaceHolderValue = document.querySelector("nav > div >input");
 
 changePlaceHolderValue.placeholder = "Search My Project";
+
+```
+
+# Task-03
+
+> Get back placeholder value(search) and footer icon and hide the li value(hire me)
+
+![task-03-img](./firstAssignmentImage/task3Output.png)
+
+```
+/* Get back placeholder value(search) and footer icon and hide the li value(hire me) */
+
+//hide the li value(hire me)
+let hideHireMeLi = (document.querySelector(
+  "nav >ul >li:last-child"
+).style.visibility = "hidden");
+
+//Get back placeholder value(search)
+let getBackPlaceholderValue = document.querySelector("nav div input");
+getBackPlaceholderValue.placeholder = "Search";
+
+//Get back footer icon
+let getBackFooterIcon = (document.querySelector("footer ul").style.visibility =
+  "visible");
 
 ```
