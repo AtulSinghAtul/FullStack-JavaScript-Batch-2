@@ -46,8 +46,13 @@ document.querySelector("footer > ul").style.visibility = "hidden";
 ```
 
 # Task-02
+>  Hide hire me li and change the button placeholder value
 
+<<<<<<< HEAD
 ![task-02-img](./firstAssignmentImage/task2Output.png)
+=======
+![project-01-task-02-dom](https://user-images.githubusercontent.com/112545072/216216359-0c0b766a-afb6-421c-af76-e04002f99486.jpg)
+>>>>>>> aa5e8ce2f7c6de26c1e4dbb6e798550eb7958c12
 
 ```
 /* Hide hire me li and change the button placeholder value */
