@@ -4,7 +4,7 @@
 
 ![task-01-img](./firstAssignmentImage/task1Output.png)
 
- <!-- -->
+ <!--Add Projects and Hire Me li element and hide the footer icon. -->
 
 ```
  /*change li value Contacts to Projects  */
@@ -50,11 +50,6 @@ document.querySelector("footer > ul").style.visibility = "hidden";
 > Hide hire me li and change the button placeholder value
 
 ![project-01-task-02-dom](https://user-images.githubusercontent.com/112545072/216216359-0c0b766a-afb6-421c-af76-e04002f99486.jpg)
-<<<<<<< HEAD
-
-> > > > > > > aa5e8ce2f7c6de26c1e4dbb6e798550eb7958c12
-=======
->>>>>>> 70f4c4ac441ad502ef66d0c3d8853f2dc84498a3
 
 ```
 /* Hide hire me li and change the button placeholder value */
@@ -97,7 +92,8 @@ let getBackFooterIcon = (document.querySelector("footer ul").style.visibility =
 # Task-04
 
 > add another image
-> ![task-04-img](./firstAssignmentImage/task4Output.png)
+
+![task-04](https://user-images.githubusercontent.com/112545072/216225770-12006add-1317-4a6a-9a43-524f5a166ed9.jpg)
 
 ```
 /* add another image */
