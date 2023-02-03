@@ -6,6 +6,8 @@
 
 ![task-01](./ass9.1-after.png);
 
+**Solution:**
+
 ```
 let targetH1 = document.querySelector("h1.title");
 targetH1.style.color = "red";
@@ -16,6 +18,7 @@ targetH1.style.color = "red";
 ![task-01](./ass9.2-after.png);
 
 ```
+**Solution:**
 
 //h1 color change
 document.querySelector("h1.title").style.color = "black";
