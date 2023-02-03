@@ -1,8 +1,10 @@
-# Task-01
+# Assignment -03
+## Task-01
 
-> Form left get value from right.
+ - **Form left get value from right.**
 
 ![task-01](./thirdAssignmentImage/task1Output.png)
+**Solution:**
 
 ```
 // right form
