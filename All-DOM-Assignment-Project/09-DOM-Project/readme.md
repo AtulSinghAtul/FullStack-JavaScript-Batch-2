@@ -4,7 +4,7 @@
 
 ## Task-01: change h1 color
 
-![task-01](./ass9.1-after.png);
+![task-01](./ass9.1-after.png)
 
 **Solution:**
 
@@ -15,7 +15,7 @@ targetH1.style.color = "red";
 
 ## Task-01: when hover on button background color will be change and change the h1 color
 
-![task-01](./ass9.2-after.png);
+![task-01](./ass9.2-after.png)
 
 ```
 **Solution:**
