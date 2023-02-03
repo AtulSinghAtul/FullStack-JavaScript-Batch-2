@@ -16,9 +16,9 @@ targetH1.style.color = "red";
 ## Task-01: when hover on button background color will be change and change the h1 color
 
 ![task-01](./ass9.2-after.png)
+**Solution:**
 
 ```
-**Solution:**
 
 //h1 color change
 document.querySelector("h1.title").style.color = "black";
