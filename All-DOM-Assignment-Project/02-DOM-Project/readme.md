@@ -1,8 +1,11 @@
-# Task-01
+# Assignment -02
 
-> Add background color on every h3 element.
+## Task-01
+
+ - **Add background color on every h3 element.**
 
 ![task-01-img](./secondAssignmentImage/task1Output.png)
+**Solution:**
 
 ```
 /* Change background color h3 of about faq section */
@@ -13,9 +16,10 @@ let changeBackgroundColor = document.querySelectorAll("h3").forEach((value) => {
 
 # Task-02
 
-> Add new faq section Skill.
+ - **Add new faq section Skill.**
 
 ![task-02-img](./secondAssignmentImage/task2Output.png)
+**Solution:**
 
 ```
 /* Create new about faq section */
