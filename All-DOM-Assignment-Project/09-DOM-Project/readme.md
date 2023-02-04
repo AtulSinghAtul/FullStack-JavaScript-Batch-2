@@ -1,6 +1,10 @@
 # Assignment -09
 
+<<<<<<< HEAD
 ** When we hover on button then change tha button background color and change the h1 color back black.**
+=======
+ **When we hover on button then change tha button background color and change the h1 color back black.**
+>>>>>>> 8c23766870675fb95fac3d9b5828002a5c7a8bfd
 
 ## Task-01: change h1 color
 
@@ -16,9 +20,9 @@ targetH1.style.color = "red";
 ## Task-01: when hover on button background color will be change and change the h1 color
 
 ![task-01](./ass9.2-after.png)
+**Solution:**
 
 ```
-**Solution:**
 
 //h1 color change
 document.querySelector("h1.title").style.color = "black";

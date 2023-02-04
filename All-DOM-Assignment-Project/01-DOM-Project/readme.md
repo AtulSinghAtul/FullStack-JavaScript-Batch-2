@@ -1,8 +1,11 @@
-# Task-01
+# Assignment -01
+## Task-01
 
-> Add Projects and Hire Me li element and hide the footer icon.
+ **Add Projects and Hire Me li element and hide the footer icon.**
 
 ![task-01-img](./firstAssignmentImage/task1Output.png)
+
+**Solution:**
 
  <!--Add Projects and Hire Me li element and hide the footer icon. -->
 
@@ -47,17 +50,10 @@ document.querySelector("footer > ul").style.visibility = "hidden";
 
 # Task-02
 
-> Hide hire me li and change the button placeholder value
+ **Hide hire me li and change the button placeholder value**
 
 ![project-01-task-02-dom](https://user-images.githubusercontent.com/112545072/216216359-0c0b766a-afb6-421c-af76-e04002f99486.jpg)
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-> > > > > > > # aa5e8ce2f7c6de26c1e4dbb6e798550eb7958c12
-> > > > > > >
-> > > > > > > 70f4c4ac441ad502ef66d0c3d8853f2dc84498a3
-=======
->>>>>>> 726fd06c4d0e2c9d068c970d8c6eb04a5ae0192a
+**Solution:**
 
 ```
 /* Hide hire me li and change the button placeholder value */
@@ -75,9 +71,11 @@ changePlaceHolderValue.placeholder = "Search My Project";
 
 # Task-03
 
-> Get back placeholder value(search) and footer icon and hide the li value(hire me)
+ **Get back placeholder value(search) and footer icon and hide the li value(hire me)**
 
 ![task-03-img](./firstAssignmentImage/task3Output.png)
+
+**Solution:**
 
 ```
 /* Get back placeholder value(search) and footer icon and hide the li value(hire me) */
@@ -99,13 +97,12 @@ let getBackFooterIcon = (document.querySelector("footer ul").style.visibility =
 
 # Task-04
 
-> add another image
+ **add another image**
 
-<<<<<<< HEAD
 ![task-04-img](./firstAssignmentImage/task4Output.png)
-=======
+
 ![task-04](https://user-images.githubusercontent.com/112545072/216225770-12006add-1317-4a6a-9a43-524f5a166ed9.jpg)
->>>>>>> 726fd06c4d0e2c9d068c970d8c6eb04a5ae0192a
+**Solution:**
 
 ```
 /* add another image */
@@ -118,9 +115,10 @@ targetImageDiv.style.backgroundColor = "rgb(0, 135, 135, 0.4)";
 
 # Task-05
 
-> Create support me button in header right section and get back image
+**Create support me button in header right section and get back image**
 
 ![task-05-img](./firstAssignmentImage/task5Output.png)
+**Solution:**
 
 ```
 /* Create support me button in header right section and get back image */
