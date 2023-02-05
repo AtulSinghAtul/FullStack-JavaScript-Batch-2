@@ -5,6 +5,7 @@
  - **Add background color on every h3 element.**
 
 ![task-01-img](./secondAssignmentImage/task1Output.png)
+
 **Solution:**
 
 ```
