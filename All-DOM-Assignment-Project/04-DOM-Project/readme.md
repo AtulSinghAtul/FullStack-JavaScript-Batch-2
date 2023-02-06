@@ -1,8 +1,9 @@
+
 # Assignment-04
 
 > ## Task-01: color the background of detail and it's text
 
-![task-01](./Output/DOM%20P1%20SS.png)
+![DOM P1 SS](https://user-images.githubusercontent.com/112545072/216857934-43f8257a-1c45-4438-b854-53557156129c.png)
 
 ```
 // barbarian section
