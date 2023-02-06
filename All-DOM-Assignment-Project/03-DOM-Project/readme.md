@@ -2,8 +2,9 @@
 ## Task-01
 
  - **Form left get value from right.**
+ 
+![task1Output](https://user-images.githubusercontent.com/112545072/216857596-59dd9ece-ff2f-4d87-ae8a-c51fb25da24a.png)
 
-![task-01](./thirdAssignmentImage/task1Output.png)
 **Solution:**
 
 ```

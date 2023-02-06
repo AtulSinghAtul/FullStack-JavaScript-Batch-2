@@ -1,8 +1,16 @@
 # Assignment -09
 
+<<<<<<< HEAD
 ** When we hover on button then change tha button background color and change the h1 color back black.**
 
 **When we hover on button then change tha button background color and change the h1 color back black.**
+=======
+
+** When we hover on button then change tha button background color and change the h1 color back black.**
+
+ **When we hover on button then change tha button background color and change the h1 color back black.**
+
+>>>>>>> 665e028be9d35ac6f5b98eec1672d24d802c42f5
 
 ## Task-01: change h1 color
 
