@@ -1,8 +1,9 @@
+
 # Assignment - 07
 
 > ## Task-01:Remove the languages that have 2.0 in their name(Every alternative language)
 
-![task-01](./ass7.1-after.png)
+![dom project 07 task 01](https://user-images.githubusercontent.com/112545072/216859580-d6ac1070-d0fe-4d32-824d-2ef5c638a5fb.png)
 
 ```
 let targetAnchorTag = document.querySelectorAll(".main__languages a");
@@ -16,9 +17,10 @@ for (let i = 0; i < targetAnchorTag.length; i++) {
 
 ```
 
-> ## Task-01: Use JavaScript to write something in the input box and submit the form. This should refresh the page and the languages in the left card should come back.
+> ## Task-02: Use JavaScript to write something in the input box and submit the form. This should refresh the page and the languages in the left card should come back.
 
-![task-02](./otput-task-02.jpg)
+![task 02 dom project 07](https://user-images.githubusercontent.com/112545072/216859897-eecfd6f5-b76c-4c96-9c2e-0bd7ee98f339.png)
+
 
 ```
 let targetPlaceholder = document.querySelector("input.main__form-input");
