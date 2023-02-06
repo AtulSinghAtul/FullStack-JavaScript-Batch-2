@@ -3,7 +3,7 @@
 
  **Add Projects and Hire Me li element and hide the footer icon.**
 
-![task-01-img](./firstAssignmentImage/task1Output.png)
+![task1Output](https://user-images.githubusercontent.com/112545072/216857141-44a9722a-54be-4455-84f1-2fe9dd8288fc.png)
 
 **Solution:**
 
@@ -73,7 +73,8 @@ changePlaceHolderValue.placeholder = "Search My Project";
 
  **Get back placeholder value(search) and footer icon and hide the li value(hire me)**
 
-![task-03-img](./firstAssignmentImage/task3Output.png)
+
+![task3Output](https://user-images.githubusercontent.com/112545072/216857081-32f02ecb-e661-4bd6-9b5a-ae28d9ccd7f7.png)
 
 **Solution:**
 
@@ -117,7 +118,8 @@ targetImageDiv.style.backgroundColor = "rgb(0, 135, 135, 0.4)";
 
 **Create support me button in header right section and get back image**
 
-![task-05-img](./firstAssignmentImage/task5Output.png)
+![task5Output](https://user-images.githubusercontent.com/112545072/216857055-a439f0c4-1a7d-4d52-a43c-1e56d29f0c93.png)
+
 **Solution:**
 
 ```
