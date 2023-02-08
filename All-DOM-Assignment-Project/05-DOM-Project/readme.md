@@ -2,7 +2,7 @@
 
 > ## Task-01: add btn and change card detail text color and add 6th card.
 
-![task-01](./Output/DOM%20P2%20SS.png)
+![dom project 05](https://user-images.githubusercontent.com/112545072/216858814-e686f1fe-0d88-4463-8aa8-5515ba960dd6.png)
 
 ```
 //Task-01 add btn and change card detail text color and add 6th card.

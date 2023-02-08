@@ -2,7 +2,8 @@
 
 > ## Task-01: add ineuron image and hide first image
 
-![task-01](./Output/DOM%20P3%20SS-1.png)
+![dom project 06](https://user-images.githubusercontent.com/112545072/216859346-253cd72e-d908-47d0-ae89-e590e12a8f94.png)
+
 
 ```
 // Task-01: add ineuron image and hide first image

@@ -2,7 +2,8 @@
 
 > ## Task-01: set overflow auto to get scrollbar
 
-![task-01](./ass8.1-after.png)
+<img width="770" alt="ass8 1-after" src="https://user-images.githubusercontent.com/112545072/216860294-e8b31124-1af6-4586-b0b1-3040d263fa49.png">
+
 
 **Solution:**
 
@@ -15,7 +16,8 @@ scroll.style.border = "2px solid red";
 
 > ## Task-02: hide scrollbar and hide background lined point
 
-![task-01](./ass8.2-after.png)
+![ass8 2-after](https://user-images.githubusercontent.com/112545072/216860340-44790e33-bb05-4249-a4f4-65e77bc718fa.png)
+
 
 **Solution:**
 
@@ -32,7 +34,8 @@ bodyBackgroundImage.style.backgroundImage.visibility = "hidden";
 
 > ## Task-03: Toggle the button and get back nav value and body background image make visible
 
-![task-01](./ass8.3-after.png)
+
+![ass8 3-after](https://user-images.githubusercontent.com/112545072/216860375-1055de93-065d-482f-9557-41cfb1fe0ec5.png)
 
 **Solution:**
 
