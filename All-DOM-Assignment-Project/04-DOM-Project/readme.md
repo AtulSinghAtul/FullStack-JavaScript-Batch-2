@@ -8,7 +8,9 @@
 ```
 // barbarian section
 let barbarian = document.querySelector(".clash-card__unit-stats--barbarian ");
+
 barbarian.style.backgroundColor = "#ec9b3b";
+
 barbarian.style.color = "#fff";
 
 document.querySelector(
