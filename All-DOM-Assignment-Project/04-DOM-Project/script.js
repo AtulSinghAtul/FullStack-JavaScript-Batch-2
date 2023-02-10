@@ -29,7 +29,9 @@ document.querySelector(
 //Character 4 section
 
 let goblin = document.querySelector(".clash-card__unit-stats--goblin");
+
 goblin.style.backgroundColor = "#82bb30";
+
 goblin.style.color = "#fff";
 
 document.querySelector(
@@ -38,7 +40,9 @@ document.querySelector(
 
 //Wizard section
 let wizard = document.querySelector(".clash-card__unit-stats--wizard");
+
 wizard.style.backgroundColor = "#4facff";
+
 wizard.style.color = "#fff";
 
 document.querySelector(
