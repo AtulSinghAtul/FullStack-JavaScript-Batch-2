@@ -36,6 +36,7 @@ console.log(appendigParents);
 
 ///////////////////////////////////////////////////
 let ele = document.querySelector(".card");
+
 let makeClone = ele.cloneNode(true);
 
 document.querySelector(".recipe-gallery").appendChild(makeClone);
