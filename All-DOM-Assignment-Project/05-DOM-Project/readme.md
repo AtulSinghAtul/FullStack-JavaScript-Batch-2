@@ -4,6 +4,8 @@
 
 ![dom project 05](https://user-images.githubusercontent.com/112545072/216858814-e686f1fe-0d88-4463-8aa8-5515ba960dd6.png)
 
+**Solution:**
+
 ```
 //Task-01 add btn and change card detail text color and add 6th card.
 //create element tag a
