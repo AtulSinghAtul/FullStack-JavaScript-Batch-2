@@ -4,7 +4,9 @@ barbarian.style.backgroundColor = "#ec9b3b";
 barbarian.style.color = "#fff";
 
 document.querySelector(
+  
   ".clash-card__unit-stats--barbarian .no-border"
+  
 ).style.color = "#fff";
 
 //archer section
