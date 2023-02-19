@@ -8,7 +8,6 @@ const userTwo = () => {
       resolve("user found");
     }, 2000);
   });
-  console.log("hello i am user Tne");
 };
 
 const userThree = () => {
