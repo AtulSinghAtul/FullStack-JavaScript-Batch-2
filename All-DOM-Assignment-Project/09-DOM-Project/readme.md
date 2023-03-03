@@ -22,6 +22,7 @@
 ```
 let targetH1 = document.querySelector("h1.title");
 targetH1.style.color = "red";
+
 ```
 
 ## Task-02: when hover on button background color will be change and change the h1 color
