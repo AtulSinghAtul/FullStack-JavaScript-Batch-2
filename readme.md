@@ -17,7 +17,6 @@
 > ## ** HTML CSS and Tailwind Projects Link**
 
 - ### [Project- 01 ](https://github.com/AtulSinghAtul/fsjs2-20th-Nov-Project-01)
-
 - ### [Project- 02](https://github.com/AtulSinghAtul/fsjs2-20th-Nov-Project-02)
 - ### [Project- 03](https://github.com/AtulSinghAtul/fsjs2-20th-Nov-Project-03)
 - ### [Project- 04](https://github.com/AtulSinghAtul/fsjs2-26th-Nov-Project-04)
