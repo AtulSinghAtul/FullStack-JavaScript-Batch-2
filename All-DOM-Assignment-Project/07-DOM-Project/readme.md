@@ -26,6 +26,7 @@ for (let i = 0; i < targetAnchorTag.length; i++) {
 let targetPlaceholder = document.querySelector("input.main__form-input");
 console.log(targetPlaceholder);
 targetPlaceholder.placeholder = "iNeuron";
+
 //////////////////////////////////////////////
 
 //first target form tag
