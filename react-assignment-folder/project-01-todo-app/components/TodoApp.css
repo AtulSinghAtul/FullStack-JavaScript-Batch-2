@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+  background-color: rgba(95, 2, 123, 0.984);
+}
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+}
+figcaption {
+  color: aliceblue;
+  font-family: sans-serif;
+}
+
+img {
+  width: 50px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+input {
+  width: 35%;
+  height: 3rem;
+  padding: 0 5px;
+  outline: none;
+  color: rgb(151, 9, 166);
+  font-size: 19px;
+}
+::placeholder {
+  color: rgb(151, 9, 166);
+  font-size: 15px;
+  padding-left: 9px;
+  vertical-align: middle;
+}
+
+.add-item {
+  width: 35%;
+  height: 3rem;
+  padding: 0 5px;
+  outline: none;
+  color: red;
+  font-size: 19px;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
