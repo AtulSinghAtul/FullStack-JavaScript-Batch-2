@@ -2,31 +2,66 @@ import React, { useState } from "react";
 import NotesImg from "../public/Notes-img.png";
 import { FcPlus } from "react-icons/fc";
 import { AiFillDelete } from "react-icons/ai";
+import { BsPencil } from "react-icons/bs";
+
 import "./TodoApp.css";
 import { useState } from "react";
 
 function TodoApp() {
   console.log("TodoApp");
   const [items, setItems] = useState(" ");
-  const [addItem, setAddItem] = useState([]);
+  const [addItems, setAddItems] = useState([]);
+  const [toggle, setToggle] = useState(true);
+  const [editData, setEditData] = useState(null);
 
   function inputHandler(e) {
-    // e.preventDefault();
     setItems(e.target.value);
   }
 
   function addInputHandler() {
-    setAddItem([items, ...addItem]);
-    // console.log(items);
-    // console.log(addItem);
+    if (items === " ") {
+      console.log("empety");
+
+      // console.log(items);
+    } else if (editData && !setToggle) {
+      console.log(editData);
+    } else {
+      const allInputData = { id: new Date().getTime().toString(), name: items };
+      console.log(allInputData.id);
+
+      setAddItems([...addItems, allInputData]);
+      setItems(" ");
+    }
+
+    console.log(addItems);
   }
 
-  function deleteHandler() {
-    addItem.filter((id) => {
-      console.log(id);
-      console.log(addItem.indexOf());
-      id !== addItem.indexOf();
-    });
+  function deleteHandler(indexes) {
+    return function re() {
+      const ab = addItems.filter((elem) => {
+        return indexes !== elem.id;
+      });
+      console.log(ab);
+      console.log(...ab);
+      setAddItems([...ab]);
+    };
+  }
+  console.log(addItems);
+  //////////////////////////////////////////
+
+  function updateHandler(e) {
+    const [elem] = addItems;
+    console.log(elem);
+    console.log(e);
+
+    // console.log(d);
+
+    // e === [e] ? console.log("e") : d;
+    // const [d] = e;
+    e.id === elem.id ? setItems(elem.name) : console.log("byyy");
+    setToggle(false);
+    setItems(elem.name);
+    setEditData(elem.id);
   }
 
   return (
@@ -45,16 +80,21 @@ function TodoApp() {
             className="input"
             placeholder="Write Notes "
           ></input>
-          <FcPlus
-            onClick={addInputHandler}
-            style={{ backgroundColor: "white", height: "97.5%" }}
-          />
+          {toggle ? (
+            <FcPlus
+              onClick={addInputHandler}
+              style={{ backgroundColor: "white", height: "97.5%" }}
+            />
+          ) : (
+            <BsPencil onClick={() => updateHandler(addItems)} />
+          )}
         </label>
-        {addItem.map((value, index) => {
+        {addItems.map((value) => {
           return (
-            <div className="add-item" key={index}>
-              {value}
-              <AiFillDelete onClick={deleteHandler} />
+            <div className="add-item" key={value.id}>
+              {value.name}
+              <BsPencil onClick={() => updateHandler(value)} />
+              <AiFillDelete onClick={deleteHandler(value.id)} />
             </div>
           );
         })}
