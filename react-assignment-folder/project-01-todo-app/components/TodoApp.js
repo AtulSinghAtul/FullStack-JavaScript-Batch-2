@@ -45,6 +45,8 @@ function TodoApp() {
       console.log(...ab);
       setAddItems([...ab]);
     };
+
+    setItems(" ");
   }
   console.log(addItems);
   //////////////////////////////////////////
@@ -54,10 +56,6 @@ function TodoApp() {
     console.log(elem);
     console.log(e);
 
-    // console.log(d);
-
-    // e === [e] ? console.log("e") : d;
-    // const [d] = e;
     e.id === elem.id ? setItems(elem.name) : console.log("byyy");
     setToggle(false);
     setItems(elem.name);
