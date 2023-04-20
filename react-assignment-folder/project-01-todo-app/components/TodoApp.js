@@ -27,13 +27,13 @@ function TodoApp() {
       console.log(editData);
     } else {
       const allInputData = { id: new Date().getTime().toString(), name: items };
-      console.log(allInputData.id);
+      // console.log(allInputData.id);
 
       setAddItems([...addItems, allInputData]);
       setItems(" ");
     }
 
-    console.log(addItems);
+    // console.log(addItems);
   }
 
   function deleteHandler(indexes) {
@@ -41,8 +41,8 @@ function TodoApp() {
       const ab = addItems.filter((elem) => {
         return indexes !== elem.id;
       });
-      console.log(ab);
-      console.log(...ab);
+      // console.log(ab);
+      // console.log(...ab);
       setAddItems([...ab]);
     };
 
@@ -52,14 +52,26 @@ function TodoApp() {
   //////////////////////////////////////////
 
   function updateHandler(e) {
-    const [elem] = addItems;
-    console.log(elem);
-    console.log(e);
+    // const [elem] = addItems;
+    // console.log(elem);
+    // console.log(e);
+    // console.log(addItems);
+    // e.id === elem.id ? setItems(elem.name) : console.log("byyy");
+    // setToggle(false);
+    // setItems(elem.name);
+    // setEditData(elem.id);
+    console.log(addItems);
+    let newEditItems = addItems.find((elem) => {
+      console.log(elem.id === e.id);
+      return elem.id === e.id;
 
-    e.id === elem.id ? setItems(elem.name) : console.log("byyy");
+      console.log(elem);
+    });
+    console.log(newEditItems);
     setToggle(false);
-    setItems(elem.name);
-    setEditData(elem.id);
+    console.log(newEditItems);
+    setItems(newEditItems?.name);
+    setEditData(e.id);
   }
 
   return (
