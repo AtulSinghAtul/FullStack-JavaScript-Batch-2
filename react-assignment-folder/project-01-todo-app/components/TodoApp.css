@@ -11,7 +11,7 @@
   justify-content: center;
   align-items: center;
   row-gap: 2rem;
-  background-color: rgba(95, 2, 123, 0.984);
+  background-color: rgba(251, 87, 207, 0.984);
 }
 figure {
   display: flex;
@@ -64,5 +64,7 @@ input {
   align-items: center;
 }
 
-.add-item {
+.icon {
+  display: flex;
+  column-gap: 20px;
 }

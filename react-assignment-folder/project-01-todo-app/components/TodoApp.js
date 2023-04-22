@@ -20,20 +20,31 @@ function TodoApp() {
 
   function addInputHandler() {
     if (items === " ") {
-      console.log("empety");
+      alert("please fill the data");
 
       // console.log(items);
-    } else if (editData && !setToggle) {
-      console.log(editData);
+    } else if (items && !toggle) {
+      setAddItems(
+        addItems?.map((elem) => {
+          console.log(elem.id);
+          console.log(editData);
+          if (elem.id === editData) {
+            return { ...elem, name: items };
+          }
+          return elem;
+        })
+      );
+      setToggle(true);
+      setItems(" ");
+      setEditData(null);
     } else {
       const allInputData = { id: new Date().getTime().toString(), name: items };
-      // console.log(allInputData.id);
 
       setAddItems([...addItems, allInputData]);
       setItems(" ");
     }
 
-    // console.log(addItems);
+    console.log(addItems);
   }
 
   function deleteHandler(indexes) {
@@ -41,8 +52,7 @@ function TodoApp() {
       const ab = addItems.filter((elem) => {
         return indexes !== elem.id;
       });
-      // console.log(ab);
-      // console.log(...ab);
+
       setAddItems([...ab]);
     };
 
@@ -51,27 +61,21 @@ function TodoApp() {
   console.log(addItems);
   //////////////////////////////////////////
 
-  function updateHandler(e) {
-    // const [elem] = addItems;
-    // console.log(elem);
-    // console.log(e);
-    // console.log(addItems);
-    // e.id === elem.id ? setItems(elem.name) : console.log("byyy");
-    // setToggle(false);
-    // setItems(elem.name);
-    // setEditData(elem.id);
+  function updateHandler(value) {
+    console.log(value);
+
     console.log(addItems);
     let newEditItems = addItems.find((elem) => {
-      console.log(elem.id === e.id);
-      return elem.id === e.id;
-
-      console.log(elem);
+      console.log(elem.id);
+      console.log(value?.id);
+      console.log(elem.id === value.id);
+      return elem.id === value.id;
     });
     console.log(newEditItems);
     setToggle(false);
     console.log(newEditItems);
     setItems(newEditItems?.name);
-    setEditData(e.id);
+    setEditData(value.id);
   }
 
   return (
@@ -96,15 +100,18 @@ function TodoApp() {
               style={{ backgroundColor: "white", height: "97.5%" }}
             />
           ) : (
-            <BsPencil onClick={() => updateHandler(addItems)} />
+            <BsPencil onClick={addInputHandler} />
           )}
         </label>
         {addItems.map((value) => {
           return (
-            <div className="add-item" key={value.id}>
+            <div className="add-item " key={value.id}>
+              {console.log(value)}
               {value.name}
-              <BsPencil onClick={() => updateHandler(value)} />
-              <AiFillDelete onClick={deleteHandler(value.id)} />
+              <div className="icon">
+                <BsPencil onClick={() => updateHandler(value)} />
+                <AiFillDelete onClick={deleteHandler(value.id)} />
+              </div>
             </div>
           );
         })}
