@@ -112,6 +112,7 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
+    "serve": "parcel serve public/index.html",
     "start": "parcel public/index.html",
     "build": "parcel build public/index.html",
     "test": "jest"
