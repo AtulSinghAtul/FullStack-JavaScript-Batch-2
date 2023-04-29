@@ -7,9 +7,7 @@
 - ### [All Articles & Blogs Link](https://atulsinghatul.hashnode.dev/)
 
 > ## ** FSJS Batch-2 All Project Link**
-
 > ### ** React-JS Assignments Link**
-
  - ### [react-todo-app ](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/react-assignment-folder/project-01-todo-app)
 
 > ### ** JS Assignments Link**
