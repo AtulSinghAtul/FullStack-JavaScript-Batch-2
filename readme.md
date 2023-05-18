@@ -3,7 +3,7 @@
 ---
 
 - ## All live class assignment, projects and homework file is available here.
-- #  [Placement Assignment_(Atul Singh)]()       
+- #  [Placement Assignment_(Atul Singh)](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/Placement%20Assignment_(Atul%20Singh))       
 
 - ### [All Articles & Blogs Link](https://atulsinghatul.hashnode.dev/)
 
