@@ -3,6 +3,7 @@
 ---
 
 - ## All live class assignment, projects and homework file is available here.
+- #  [Placement Assignment_(Atul Singh)]()       
 
 - ### [All Articles & Blogs Link](https://atulsinghatul.hashnode.dev/)
 
