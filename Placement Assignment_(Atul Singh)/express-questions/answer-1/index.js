@@ -10,7 +10,11 @@ app.use(express.json());
 
 //mounting
 const route = require("./routes/route");
-app.use("api/v1", route);
+app.use("/api/v1", route);
+
+//db call
+const { dbConnect } = require("./database/db");
+dbConnect();
 
 //listen server
 app.listen(PORT, () => {
