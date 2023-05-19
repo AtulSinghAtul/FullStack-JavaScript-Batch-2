@@ -4,7 +4,7 @@
 
 ## <= EXPRESS QUESTIONS=>
 
-- Answer 6 :-
+- Answer 6 :- [ authentication-using-jwt](<https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/Placement%20Assignment_(Atul%20Singh)/express-questions/answer-6/Authentication-App>)
 
   `JSON  Web Tokens (JWT) is an o[en standard that defines acompact and self-contained way for securrly transmitting information between parties and JSON object. This information can be verified and trusted because it is digitally signed. JWTs can be used to securely authenticate users, verify their identity, and provide access to authorized resources.`
 
