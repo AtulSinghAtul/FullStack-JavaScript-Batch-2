@@ -10,9 +10,14 @@
 
 ---
 
+- Answer 3 :-
+  [Created a backend for blog app, where user can perform crud operations](<https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/Placement%20Assignment_(Atul%20Singh)/express-questions/answer-3/backendForBlogApp>)
+
+---
+
 - Answer 6 :- [ authentication-app-using-jwt](<https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/Placement%20Assignment_(Atul%20Singh)/express-questions/answer-6/Authentication-App>)
 
-  `JSON  Web Tokens (JWT) is an o[en standard that defines acompact and self-contained way for securrly transmitting information between parties and JSON object. This information can be verified and trusted because it is digitally signed. JWTs can be used to securely authenticate users, verify their identity, and provide access to authorized resources.`
+  `JSON  Web Tokens (JWT) is an open standard that defines a compact and self-contained way for securely transmitting information between parties and JSON object. This information can be verified and trusted because it is digitally signed. JWTs can be used to securely authenticate users, verify their identity, and provide access to authorized resources.`
 
   ` JWTs are composed of three parts: aheader, a payload and a signature. The header typically containes the type of the token (JWT), and the signing algorithem used. The payload containes the data being transmitted, such as the user's ID or Email address. The signature is created by hashing the header and payload using a secret key, which can be used to verify the authenticity of the token.`
 
