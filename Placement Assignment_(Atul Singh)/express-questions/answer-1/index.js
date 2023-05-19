@@ -1,14 +1,16 @@
 const express = require("express");
 const app = express();
 
-require("dotenv").config();
-const PORT = process.env.PORT;
+require("dotenv")?.config();
+const PORT = process?.env?.PORT;
+console.log(PORT);
 
 //middleware
 app.use(express.json());
 
 //mounting
-const { createPost } = require("./controllers/createPost");
+const route = require("./routes/route");
+app.use("api/v1", route);
 
 //listen server
 app.listen(PORT, () => {
