@@ -4,7 +4,13 @@
 
 ## <= EXPRESS QUESTIONS=>
 
-- Answer 6 :- [ authentication-using-jwt](<https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/Placement%20Assignment_(Atul%20Singh)/express-questions/answer-6/Authentication-App>)
+- Answer 1 :-
+  [Create a simple server using Express and connect with backend and create an endpoint
+  “/post” which sends 20 posts](<https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/Placement%20Assignment_(Atul%20Singh)/express-questions/answer-1>)
+
+---
+
+- Answer 6 :- [ authentication-app-using-jwt](<https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/Placement%20Assignment_(Atul%20Singh)/express-questions/answer-6/Authentication-App>)
 
   `JSON  Web Tokens (JWT) is an o[en standard that defines acompact and self-contained way for securrly transmitting information between parties and JSON object. This information can be verified and trusted because it is digitally signed. JWTs can be used to securely authenticate users, verify their identity, and provide access to authorized resources.`
 
