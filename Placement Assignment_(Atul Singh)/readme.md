@@ -16,6 +16,7 @@
 
 ![auth-middleware](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/assets/112545072/1eddb768-5590-468a-9067-e0fb67badc00)
 
+---
 
 - Answer 3 :-
   [Created a backend for blog app, where user can perform crud operations](<https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/Placement%20Assignment_(Atul%20Singh)/express-questions/answer-3/backendForBlogApp>)
