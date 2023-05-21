@@ -4,13 +4,13 @@
 
 ## <= EXPRESS QUESTIONS=>
 
-- ## Answer 1 :-
+- ## Answer 1 Express ->
   [Create a simple server using Express and connect with backend and create an endpoint
   “/post” which sends 20 posts](<https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/Placement%20Assignment_(Atul%20Singh)/express-questions/answer-1>)
 
 ---
 
-- ## Answer 2 :- [Explain a middleware and create a middleware that checks is user authenticated or not
+- ## Answer 2 Express -> [Explain a middleware and create a middleware that checks is user authenticated or not
   then send data of post](<https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/Placement%20Assignment_(Atul%20Singh)/express-questions/answer-2/Middleware-Authentication-App>)
   `As implied by the name, middleware acts as a bridge. Middleware is a function or utility function (middleware function) that intercepts a request in the middle and calls a utility function. These middleware functions execute our middleware code to perform actions (such as authentication and authorization). `
 
@@ -18,12 +18,12 @@
 
 ---
 
-- ## Answer 3 :-
+- ## Answer 3 Express ->
   [Created a backend for blog app, where user can perform crud operations](<https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/Placement%20Assignment_(Atul%20Singh)/express-questions/answer-3/backendForBlogApp>)
 
 ---
 
-- ## Answer 4 :-
+- ## Answer 4 Express ->
 
   `What is the difference between authentication and authorization?`
 
@@ -32,7 +32,7 @@
 
 ---
 
-- ## Answer 5 :-
+- ## Answer 5 Express ->
 
 `What is he difference between common JS and EJS module? `
 
@@ -284,7 +284,7 @@ testFunction()
 
 ---
 
-- ## Answer 6 :- [ authentication-app-using-jwt](<https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/Placement%20Assignment_(Atul%20Singh)/express-questions/answer-6/Authentication-App>)
+- ## Answer 6 Express -> [ authentication-app-using-jwt](<https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/Placement%20Assignment_(Atul%20Singh)/express-questions/answer-6/Authentication-App>)
 
   `JSON  Web Tokens (JWT) is an open standard that defines a compact and self-contained way for securely transmitting information between parties and JSON object. This information can be verified and trusted because it is digitally signed. JWTs can be used to securely authenticate users, verify their identity, and provide access to authorized resources.`
 
@@ -296,4 +296,142 @@ testFunction()
 
 ---
 
-- ## Answer 7 :-
+- ## Answer 7 Express ->
+
+`What should we do with the password of a user before storing it into DB?`
+
+## How the passwords are stored in the DB
+
+`So it's obvious that we can't store the password in plain text. We all agree here without any doubt.`
+
+> ### We have to covert the clear text password into some secret form
+
+`We have two approaches for that`
+
+**1. Hashing-** `It's one way, means we can't get back the clear text password back from the secret.`
+
+**2. Encryption-** `It's one way, means we can't get back the clear text password back from the secret.`
+
+If we pass the clear text password through `HASHING / ENCRYPTION`, both generate the secret but the difference lies in whether we can get back the clear text password or not.
+
+`So imagine we are using encryption, and somehow passwords got leaked and hackers got the private-key/pattern that was used to encrypt the password then they can easily decrypt the password and get the every clear text password which is a huge risk.`
+
+`Now come to HASHING, it's one way so even if passwords got leaked the hackers won't be able to get back the clear text password and so it's not of any use to hacker. We are safe even if data got leaked.`
+
+`And this you can see in your real life if you call customer-care of the bank(or any institute you have account with) and ask for password they can't tell that because it's not in clear text and only option is to reset the password.`
+
+> Only the USER/CUSTOMER knows the password.
+
+`We can use encryption for general purpose which the systems need to decrypt, like Whatsapp chats are stored in encrypted form and when rendering on the screen they are decrypted on the fly.`
+
+**The important question is why hashed passwords can't be restored back -**
+
+- There is complex mathematical computation in place at different layers.
+
+- Multiple passwords can result in the same hashed secret.
+
+**How the password validation happens**
+
+`We have 2 ways-`
+
+`1.` Decrypt the stored password and compare it with user entered password,
+
+`2.` Hash the user entered password and compare this hash with the one stored in the DB.
+
+As we have seen getting back the clear text password from the hashed is impossible in real time so option#1 is not feasible. **Option#2 is used to validate the password**. And this is something that we don't have to do manually the hashing algorithm libraries provides us the way to validate the passwords as well. We have to pass the clear text and hashed password and it will return the result accordingly.
+
+`Now before looking at different secure hashing algorithms lets understand few terms related to secure storage of password -`
+
+## Salting
+
+`It's unique randomly generated string added to the passwords before generating hash.`
+
+> Every password has its own unique salt which is stored along with the hashed password
+
+It provides one extra layer of security so attacker has to crack hashes one at a time using the respective salt rather than calculating a hash once and comparing it against every stored hash. Earlier we needed to add the salt manually at the time of generating hash of the password but modern hashing algorithms such as `Argon2id, bcrypt,` and `PBKDF2 `automatically salt the passwords, so no additional steps are required when using them.
+
+## Peppering
+
+It's combination of hashing and encryption. Once hashes are generated usually but before storing they are encrypted with some private key. This process of adding encryption is `Peppering` and private key is referred as `Pepper`
+
+> Pepper is same for all the passwords unlike salt which was different for each password.
+
+> Pepper must be stored in secret vaults which is different from DB
+
+> Pepper can be rotated as and when needed.
+
+`Peppering gives one more additional layer of security because now hacker has to get both database passwords as well as private key.`
+
+You can see in the above diagram there is one more layer of decryption added which makes life of hacker even more harder
+
+## Work factor
+
+`It's the number of iterations that can be added to make calculation of hashing even more difficult. In simple terms if work factor is 10 it will be do 10 iterations to calculate the hash and if it's 20 then it will do the 20 iterations to calculate the hash. So here we can see the attacker will have to spent more resources/time to validate each hash.`
+
+> Adding more work factor will make usual user validation slow so it must be chosen carefully to maintain the balance between security and usability.
+
+`Different Hashing algorithms that can be used here. (Most recommended at the top, use as per availability)`
+
+- Argon2
+- Bcrypt
+- Scrypt
+- PBKDF2
+- SHA-\*
+- MD5
+
+---
+
+- ## Answer 8 Express ->
+
+`Whats event loop in NodeJS ?`
+
+Despite the fact that JavaScript is single-threaded, Node.js uses an event loop to perform non-blocking I/O operations.
+
+`A thread is automatically established whenever we launch a Node program. This thread will be the sole one where our complete codebase will be run. The event loop is generated inside of it. This loop's job is to figure out which operations our single thread should be performing at any given time. `
+
+`Most operating systems are multi-threaded, so they can handle many background tasks. The kernel tells Node.js when one of the operations is complete, as well as the callbacks linked with such an action is pushed towards the event loop, where it can be processed later. `
+
+`Event Loop features include:`
+
+- This event loop is just not a loop which waits for tasks, performs them, and then rests until new ones occur.
+
+- The event loop executes tasks first from event queue while the call stack is empty, i.e. there are no ongoing tasks.
+
+- With both the event loop, we can use callbacks and promises.
+
+```
+Example:
+
+console.log("This is the first statement");
+setTimeout(function(){
+console.log("This is the second statement");
+}, 1000);
+console.log("This is the third statement");
+Output:
+```
+
+This is the first statement
+
+This is the third statement
+
+This is the second statement
+
+`In the example above, a first console log line is pushed to the call stack, the console is logged with "This is the first statement," and the task is retrieved from the stack. The job is subsequently transmitted to the windows os, and the task's timer is established. This job is then deleted from the stack. `
+
+`The third console log statement is then pushed to the call stack, and the console is logged with "This is the third statement," and the task is popped from the stack. `
+
+`The callback is dispatched to the event queue when the timer set by the setTimeout function (in this example 1000 ms) expires. When the call stack is empty, the event loop takes the job at the top of the event queue and sends it to the call stack. The setTimeout function's callback function executes the instruction, logging "This is the second statement" on the console and removing the task from the stack.`
+
+## Working of Event loop
+
+`As Node.js launches, it first organises the event loop, next processes the supplied input script, sets up timers, and thereafter begins executing its event loop. The first data script included console.log() statements and a setTimeout() feature that set a timer. `
+
+`To conduct async operations in Node.js, a special library module called libuv is utilised. This library is also used to handle the libuv thread pool, which is managed in conjunction with Node's back logic.`
+
+`The thread pool consists of four threads that are used to delegate operations that are too large for the event loop to handle. I/O operations, such as opening and closing connections and setting timeouts, are examples.`
+
+`When a task is completed by the thread pool, a callback function is invoked, which handles the error (if any) or performs some other operation. The event queue receives this callback function. The event goes through the event queue and delivers the callback to the call stack when the call stack is empty. `
+
+![as]()
+
+- ## Answer 9 Express ->
