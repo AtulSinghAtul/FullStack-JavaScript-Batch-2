@@ -323,6 +323,8 @@ If we pass the clear text password through `HASHING / ENCRYPTION`, both generate
 > Only the USER/CUSTOMER knows the password.
 
 `We can use encryption for general purpose which the systems need to decrypt, like Whatsapp chats are stored in encrypted form and when rendering on the screen they are decrypted on the fly.`
+  
+  ![password hashing](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/assets/112545072/3c2f1b38-9a83-4c3b-9804-ba733ab74ecc)
 
 **The important question is why hashed passwords can't be restored back -**
 
@@ -337,6 +339,8 @@ If we pass the clear text password through `HASHING / ENCRYPTION`, both generate
 `1.` Decrypt the stored password and compare it with user entered password,
 
 `2.` Hash the user entered password and compare this hash with the one stored in the DB.
+  
+
 
 As we have seen getting back the clear text password from the hashed is impossible in real time so option#1 is not feasible. **Option#2 is used to validate the password**. And this is something that we don't have to do manually the hashing algorithm libraries provides us the way to validate the passwords as well. We have to pass the clear text and hashed password and it will return the result accordingly.
 
@@ -361,6 +365,8 @@ It's combination of hashing and encryption. Once hashes are generated usually bu
 > Pepper can be rotated as and when needed.
 
 `Peppering gives one more additional layer of security because now hacker has to get both database passwords as well as private key.`
+
+  ![password pepper](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/assets/112545072/224eb1c1-d054-4475-ba2c-8b064af7daad)
 
 You can see in the above diagram there is one more layer of decryption added which makes life of hacker even more harder
 
