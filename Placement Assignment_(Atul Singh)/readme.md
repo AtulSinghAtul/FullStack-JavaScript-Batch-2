@@ -432,6 +432,6 @@ This is the second statement
 
 `When a task is completed by the thread pool, a callback function is invoked, which handles the error (if any) or performs some other operation. The event queue receives this callback function. The event goes through the event queue and delivers the callback to the call stack when the call stack is empty. `
 
-![as]()
+![event loop](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/assets/112545072/49cc2124-875d-4d5b-865e-6fb4492e5a15)
 
 - ## Answer 9 Express ->
