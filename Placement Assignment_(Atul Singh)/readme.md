@@ -11,7 +11,9 @@
 ---
 
 - ## Answer 2 Express -> 
- [Explain a middleware and create a middleware](<https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/Placement%20Assignment_(Atul%20Singh)/express-questions/answer-2/Middleware-Authentication-App>)
+ [Explain a middleware and create a middleware that checks is user authenticated or not
+  then send data of post](<https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/Placement%20Assignment_(Atul%20Singh)/express-questions/answer-2/Middleware-Authentication-App>)
+  
   `As implied by the name, middleware acts as a bridge. Middleware is a function or utility function (middleware function) that intercepts a request in the middle and calls a utility function. These middleware functions execute our middleware code to perform actions (such as authentication and authorization). `
 
 ![auth-middleware](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/assets/112545072/1eddb768-5590-468a-9067-e0fb67badc00)
