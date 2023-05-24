@@ -1,4 +1,4 @@
-# MERN E-COMMERCE TUTORIAL
+# MERN E-COMMERCE Project
 
 Hi! My name is **Atul Singh**.
 
