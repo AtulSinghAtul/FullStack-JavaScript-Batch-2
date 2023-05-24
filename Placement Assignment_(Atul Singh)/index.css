@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*body{background-color:#E9ECEF;}*/
+body {
+  width: 100vw;
+}
+.resume {
+  min-width: 320px;
+}
+#cv-header {
+  width: 100%;
+  height: 25vh;
+  background-color: #001524;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3px;
+}
+#cv-header .logo img {
+  padding: 10px;
+}
+#cv-header .cv-name span {
+  color: #fafafa;
+}
+#cv-header .cv-name p {
+  color: #fafafa;
+}
+
+#cv-header .cv-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #e36414;
+}
+
+#scroll-text {
+  background-color: #a8dadc;
+  padding: 7px 5px 5px 5px;
+  color: #023047;
+  border-radius: 7px;
+  margin-bottom: 3px;
+  box-shadow: 1px 5px 20px #a8dadc;
+}
+
+/*skilss ...........*/
+.skills-container {
+  width: 100%;
+  height: 50vh;
+  background-color: #023047;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills {
+  margin-left: 12px;
+  padding-bottom: 5px;
+}
+.skills h2 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #fafafa;
+  font-size: 18px;
+}
+
+.skills h1 {
+  font-weight: 700;
+  color: #fafafa;
+}
+
+.progress-bar {
+  background: #e9ecef;
+  width: 320px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.progress-bar div {
+  height: 10px;
+  border-radius: 5px;
+  width: 0%;
+}
+.progress-bar div span {
+  font-size: 12px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #8d99ae;
+  float: right;
+  margin-top: -10px;
+  margin-bottom: -15px;
+  display: flex;
+  justify-contet: center;
+  align-items: center;
+}
+.html {
+  background-color: #cdb4db;
+  animation: html 1s linear forwards;
+}
+.css {
+  background-color: #ffc8dd;
+  animation: css 1s linear forwards;
+}
+.js {
+  background-color: #bde0fe;
+  animation: js 1s linear forwards;
+}
+.py {
+  background-color: #ffafcc;
+  animation: py 1s linear forwards;
+}
+.c {
+  background-color: #ffbe0b;
+  animation: c 1s linear forwards;
+}
+
+.html span {
+  border: 1px solid #cdb4db;
+}
+.css span {
+  border: 1px solid #ffc8dd;
+}
+.js span {
+  border: 1px solid #bde0fe;
+}
+.py span {
+  border: 1px solid #cdb4db;
+}
+.c span {
+  border: 1px solid #ffbe0b;
+}
+
+@keyframes html {
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  100% {
+    width: 80%;
+  }
+}
+@keyframes js {
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes py {
+  100% {
+    width: 85%;
+  }
+}
+@keyframes c {
+  100% {
+    width: 92%;
+  }
+}
+
+/*.......personal information..........*/
+
+.contactinfo {
+  width: 100%;
+  background: #cdb4db;
+  justify-contet: center;
+  align-items: center;
+  font-weight: 600;
+  color: #001524;
+  padding: 10px 0 20px 0;
+  margin-bottom: 0;
+}
+.contactinfo h3 {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.icon {
+  display: inline-block;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.data {
+  display: inline-block;
+  padding-left: 30px;
+}
+
+/*my social icons*/
+
+.social {
+  margin-top: -38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #000;
+}
+
+.social .icon {
+  font-size: 16px;
+  padding-left: 0px;
+  padding-bottom: 10px;
+  color: #e9ecef;
+}
+
+/*......qualification table..........*/
+.thetablesec {
+  width: 100%;
+}
+
+.themaintable {
+  width: 100%;
+  height: 300px;
+  border-collapse: collapse;
+  font-size: 0.9em;
+
+  border-radius: 15px 15px 0 0;
+}
+
+.themaintable thead tr {
+  background-color: #006d77;
+  color: #fafafa;
+  text-align: left;
+  font-weight: bold;
+}
+
+.themaintable th,
+.themaintable td {
+  padding: 10px 13px;
+}
+.themaintable tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.themaintable tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+  color: #006d77;
+  font-weight: bold;
+}
+
+.themaintable tbody tr:nth-of-type(3) {
+  border-bottom: 2px solid #006d77;
+}
