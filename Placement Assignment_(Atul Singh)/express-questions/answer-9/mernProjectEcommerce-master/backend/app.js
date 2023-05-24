@@ -34,14 +34,7 @@ app.get("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "../frontend/build/index.html"));
 });
 
-//Middleware for Errors
+// Middleware for Errors
 app.use(errorMiddleware);
-
-// app.use((err, req, res, next) => {
-//   res.locals.error = err;
-//   if (err.status >= 100 && err.status < 600) res.status(err.status);
-//   else res.status(500);
-//   res.render("error");
-// });
 
 module.exports = app;
