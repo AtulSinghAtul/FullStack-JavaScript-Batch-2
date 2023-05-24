@@ -5,13 +5,15 @@
 ## <= EXPRESS QUESTIONS=>
 
 - ## Answer 1 Express ->
-  [Create a simple server using Express and connect with backend and create an endpoint
+[Create a simple server using Express and connect with backend and create an endpoint
   “/post” which sends 20 posts](<https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/Placement%20Assignment_(Atul%20Singh)/express-questions/answer-1>)
 
 ---
 
-- ## Answer 2 Express -> [Explain a middleware and create a middleware that checks is user authenticated or not
+- ## Answer 2 Express -> 
+ [Explain a middleware and create a middleware that checks is user authenticated or not
   then send data of post](<https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/Placement%20Assignment_(Atul%20Singh)/express-questions/answer-2/Middleware-Authentication-App>)
+  
   `As implied by the name, middleware acts as a bridge. Middleware is a function or utility function (middleware function) that intercepts a request in the middle and calls a utility function. These middleware functions execute our middleware code to perform actions (such as authentication and authorization). `
 
 ![auth-middleware](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/assets/112545072/1eddb768-5590-468a-9067-e0fb67badc00)
@@ -323,6 +325,8 @@ If we pass the clear text password through `HASHING / ENCRYPTION`, both generate
 > Only the USER/CUSTOMER knows the password.
 
 `We can use encryption for general purpose which the systems need to decrypt, like Whatsapp chats are stored in encrypted form and when rendering on the screen they are decrypted on the fly.`
+  
+  ![password hashing](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/assets/112545072/3c2f1b38-9a83-4c3b-9804-ba733ab74ecc)
 
 **The important question is why hashed passwords can't be restored back -**
 
@@ -337,6 +341,8 @@ If we pass the clear text password through `HASHING / ENCRYPTION`, both generate
 `1.` Decrypt the stored password and compare it with user entered password,
 
 `2.` Hash the user entered password and compare this hash with the one stored in the DB.
+  
+
 
 As we have seen getting back the clear text password from the hashed is impossible in real time so option#1 is not feasible. **Option#2 is used to validate the password**. And this is something that we don't have to do manually the hashing algorithm libraries provides us the way to validate the passwords as well. We have to pass the clear text and hashed password and it will return the result accordingly.
 
@@ -361,6 +367,8 @@ It's combination of hashing and encryption. Once hashes are generated usually bu
 > Pepper can be rotated as and when needed.
 
 `Peppering gives one more additional layer of security because now hacker has to get both database passwords as well as private key.`
+
+  ![password pepper](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/assets/112545072/224eb1c1-d054-4475-ba2c-8b064af7daad)
 
 You can see in the above diagram there is one more layer of decryption added which makes life of hacker even more harder
 
@@ -432,6 +440,6 @@ This is the second statement
 
 `When a task is completed by the thread pool, a callback function is invoked, which handles the error (if any) or performs some other operation. The event queue receives this callback function. The event goes through the event queue and delivers the callback to the call stack when the call stack is empty. `
 
-![as]()
+![event loop](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/assets/112545072/49cc2124-875d-4d5b-865e-6fb4492e5a15)
 
 - ## Answer 9 Express ->
