@@ -35,12 +35,10 @@ const App = () => {
             <h1>{obj.name}</h1>
 
             <h2>{url}</h2>
-            <p>{fet.base_experience}</p>
           </div>
         );
       })}
 
-      {/* <div>{api}</div> */}
       <h1>atul</h1>
     </>
   );
