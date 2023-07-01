@@ -18,21 +18,28 @@ const App = () => {
   }, []);
 
   console.log(api);
+  const apiData = api;
 
-  // api.map((value) => {
-  //   console.log(value);
-  // });
-
-  for (let a in api) {
-    console.log(`key is ${a} and value is ${api[a]}`);
-  }
+  // const apiUrl =
 
   return (
     <>
-      {/* {api?.map((name) => {
-        console.log(name);
-        return <div>{name}</div>;
-      })} */}
+      {apiData?.map((obj) => {
+        const url = obj.url;
+
+        const fet = axios.get(url).then((response) => {
+          console.log(response);
+        });
+        return (
+          <div>
+            <h1>{obj.name}</h1>
+
+            <h2>{url}</h2>
+            <p>{fet.base_experience}</p>
+          </div>
+        );
+      })}
+
       {/* <div>{api}</div> */}
       <h1>atul</h1>
     </>
