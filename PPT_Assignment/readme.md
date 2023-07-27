@@ -113,6 +113,7 @@ Overall, HTML5 brought significant enhancements to web development, making it mo
 </html>
 
 ```
+[Ans 7](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/blob/main/PPT_Assignment/module-4/assignment-questions-1/q7.html)
 
 ### Q.8 What is the difference between `<figure>` tag and `<img>` tag?
 
