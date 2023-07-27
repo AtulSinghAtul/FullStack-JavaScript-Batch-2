@@ -399,6 +399,6 @@ In summary, the key differences are:
 
 ### Q.10 Build Responsive Layout both desktop and mobile and Tablet ?
 
-[Responsive Layout both desktop and mobile and Tablet](https://github.com/AtulSinghAtul/Omnifood-Project)
+- ### [Responsive Layout both desktop and mobile and Tablet](https://github.com/AtulSinghAtul/Omnifood-Project)
 
 ![omnifood-project](https://user-images.githubusercontent.com/112545072/210030189-afae61aa-f9d4-4435-b794-99e40fe6a6a7.png)
