@@ -62,8 +62,8 @@ In summary, HTML tags are the markup symbols used to define the structure and co
 > [Resume - click here to see](<https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/Placement%20Assignment_(Atul%20Singh)/html-questions/answer-4>)
 
 ### Q. 5 Write HTML code so that it looks like the below image
+![screencapture-file-notion-so-f-s-5d76dcda-d8eb-4c2e-836d-5c1aee0f8c6d-html-png-2023-07-27-10_15_27](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/assets/112545072/19978448-be6a-4bb4-a1d9-de518110877e)
 
-![image]()
 
 > [Q. 5 - click this link](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/blob/main/PPT_Assignment/module-4/assignment-questions-1/q5.html)
 
@@ -182,3 +182,5 @@ Examples of some global attributes (attributes that can be used with most HTML t
 These are just a few examples of global attributes in HTML. There are many more attributes available for specific elements, and they play a crucial role in defining the behavior and appearance of HTML elements in web development.
 
 ### Q.10 Write Html code so that it looks like the below image
+![Screenshot 2023-07-27 101852](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/assets/112545072/3c91360b-588c-4208-b267-7227b449f93b)
+
