@@ -184,3 +184,4 @@ These are just a few examples of global attributes in HTML. There are many more 
 ### Q.10 Write Html code so that it looks like the below image
 ![Screenshot 2023-07-27 101852](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/assets/112545072/3c91360b-588c-4208-b267-7227b449f93b)
 
+[Click this link and get code](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/blob/main/PPT_Assignment/module-4/assignment-questions-1/q10.html)
