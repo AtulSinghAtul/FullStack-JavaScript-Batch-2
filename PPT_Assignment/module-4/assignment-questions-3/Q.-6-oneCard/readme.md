@@ -1,6 +1,6 @@
 
 
-- ## [ Project Live Link](https://fsjs2-12th-dec-project-08.netlify.app/)
+- ## [ Project Live Link](https://64c3b68a27ebb77bfaa4fb60--steady-mermaid-0550f3.netlify.app/)
 
   > ### Social Media Links:
 
