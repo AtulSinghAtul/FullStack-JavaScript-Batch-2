@@ -1,6 +1,6 @@
 
 
-- ## [ Project Live Link](https://fsjs2-12th-dec-project-08.netlify.app/)
+- ## [ Project Live Link](https://64c3b75276ac977c6e113ff0--heroic-paprenjak-ddbda2.netlify.app/)
 
   > ### Social Media Links:
 
