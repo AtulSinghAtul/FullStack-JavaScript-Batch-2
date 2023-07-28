@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>student details table</title>
+
+    <script
+      src="https://kit.fontawesome.com/fb22eebb87.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            ssm: "318px",
+            // => @media (min-width: 320px) { ... }
+            px425: "425px",
+            // => @media (min-width: 425px) { ... }
+            sm: "640px",
+            // => @media (min-width: 640px) { ... }
+
+            md: "768px",
+            // => @media (min-width: 768px) { ... }
+
+            lg: "1024px",
+            // => @media (min-width: 1024px) { ... }
+
+            xl: "1280px",
+            // => @media (min-width: 1280px) { ... }
+
+            "2xl": "1536px",
+            // => @media (min-width: 1536px) { ... }
+          },
+        },
+      };
+    </script>
+
+    <style>
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      tr {
+        /* display: flex;
+        flex-direction: row;
+        column-gap: 20px; */
+        border: 2px solid rgb(93, 92, 92);
+        padding: 5px 8px;
+        /* width: 800px; */
+      }
+
+      td {
+        margin-right: 30px;
+      }
+      table {
+        width: 800px;
+      }
+      @media screen and (max-width: 1000px) {
+        table {
+          overflow-x: scroll;
+          height: 500px;
+          display: block;
+          width: 300px;
+        }
+      }
+
+      tbody {
+        color: rgb(150, 142, 142);
+      }
+    </style>
+  </head>
+  <body class="">
+    <div class="w-screen h-screen bg-gray-700 flex flex-col p-8">
+      <h2 class="self-start pb-6 text-2xl font-bold text-gray-300">
+        Student DashBoard
+      </h2>
+
+      <table class="table-2">
+        <thead>
+          <tr>
+            <td>Name</td>
+            <td>Email</td>
+            <td>Phone</td>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Rahul sharma</td>
+            <td>rahul.sharma@example.com</td>
+            <td>9876543210</td>
+          </tr>
+          <tr>
+            <td>Rahul sharma</td>
+            <td>rahul.sharma@example.com</td>
+            <td>9876543210</td>
+          </tr>
+          <tr>
+            <td>Rahul sharma</td>
+            <td>rahul.sharma@example.com</td>
+            <td>9876543210</td>
+          </tr>
+          <tr>
+            <td>Rahul sharma</td>
+            <td>rahul.sharma@example.com</td>
+            <td>9876543210</td>
+          </tr>
+          <tr>
+            <td>Rahul sharma</td>
+            <td>rahul.sharma@example.com</td>
+            <td>9876543210</td>
+          </tr>
+          <tr>
+            <td>Rahul sharma</td>
+            <td>rahul.sharma@example.com</td>
+            <td>9876543210</td>
+          </tr>
+          <tr>
+            <td>Rahul sharma</td>
+            <td>rahul.sharma@example.com</td>
+            <td>9876543210</td>
+          </tr>
+          <tr>
+            <td>Rahul sharma</td>
+            <td>rahul.sharma@example.com</td>
+            <td>9876543210</td>
+          </tr>
+          <tr>
+            <td>Rahul sharma</td>
+            <td>rahul.sharma@example.com</td>
+            <td>9876543210</td>
+          </tr>
+          <tr>
+            <td>Rahul sharma</td>
+            <td>rahul.sharma@example.com</td>
+            <td>9876543210</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

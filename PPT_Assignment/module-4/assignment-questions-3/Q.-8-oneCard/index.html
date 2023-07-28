@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creadit Card Landing Page</title>
+
+    <script
+      src="https://kit.fontawesome.com/fb22eebb87.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            ssm: "318px",
+            // => @media (min-width: 320px) { ... }
+            px425: "425px",
+            // => @media (min-width: 425px) { ... }
+            sm: "640px",
+            // => @media (min-width: 640px) { ... }
+
+            md: "768px",
+            // => @media (min-width: 768px) { ... }
+
+            lg: "1024px",
+            // => @media (min-width: 1024px) { ... }
+
+            xl: "1280px",
+            // => @media (min-width: 1280px) { ... }
+
+            "2xl": "1536px",
+            // => @media (min-width: 1536px) { ... }
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body class="overflow-x-hidden bg-[#151515]">
+    <!----- Nav Section ------->
+    <div class="w-screen">
+      <nav
+        class="pt-4 flex flex-row justify-between items-center ssm:px-10 md:px-28 bg-gray-800 pb-4"
+      >
+        <img
+          class="ssm:w-[80px] md:w-[100px]"
+          src="./Assets/Icons/logo_white.svg"
+          alt="nav-logo"
+        />
+        <ul
+          class="lg:flex lg:flex-row lg:justify-around lg:items-center gap-8 text-white ssm:hidden"
+        >
+          <li>Home</li>
+          <li>Blog</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+        <!-- nav right button section -->
+        <div
+          class="md:flex md:flex-row md:justify-center md:items-center md:gap-6 "
+        >
+        <i class="fa-solid fa-bars text-white lg:hidden text-4xl"></i>
+          <button class="text-white bg-blue-600 px-3 py-2 rounded ssm:hidden xl:block">
+            Apply Now
+          </button>
+        </div>
+        <!-- for ssm screen, barline -->
+        <i class="fa-solid fa-bars text-white md:hidden"></i>
+      </nav>
+
+      <!----- Header Section ------->
+      <header
+        class="container mx-auto max-w-full flex ssm:flex-col md:flex-row ssm:justify-center md:justify-around items-center my-8 md:my-14 ssm:px-10 md:px-28 relative"
+      >
+        <div
+          class="text-[#fff] flex flex-col justify-start ssm:items-center lg:items-start ssm:text-center lg:text-left w-[100vw]"
+        >
+          <p
+            class="ssm:text-[25px] md:text-4xl xl:text-4xl ssm:w-[80%] md:mt-5 md:w-[800px] md:px-3"
+          >
+            Say Hi to
+          </p>
+          <h1
+            class="ssm:text-[35px] md:text-6xl xl:text-7xl ssm:w-[80%] md:mt-5 md:w-[800px] md:px-3"
+          >
+            <span class="text-blue-600 font-medium">One Card</span>
+          </h1>
+
+          <h3
+            class="ssm:text-2xl md:text-2xl xl:text-2xl ssm:w-[80%] md:mt-5 md:w-[800px] md:px-3"
+          >
+            <span class="text-blue-600 font-medium"
+              >Co-branded Card Issuers :</span
+            >
+          </h3>
+
+          <img
+            class="w-[30%] my-5"
+            src="https://www.getonecard.app/images/legal/Banking_partners_24thJan_dark__.png"
+            alt="onecard-img"
+          />
+
+          <p
+            class="mt-10 ssm:text-[15px] md:text-[18px] lg:text-[20px] ssm:text-gray-400 ssm:w-[70%] md:w-[450px]"
+          >
+            India's best metal credit card. Built with full-stack tech. Backed
+            by the principles of simplicity, transparency, and giving back
+            control to the user.
+          </p>
+
+          <button class="bg-blue-600 px-8 py-2 mr-2 rounded mt-5 ssm:mb-28 lg:mb-10">Apply Now <i class="fa-solid fa-globe mx-2"></i>
+            <i class="fa-solid fa-play mr-2"></i>
+            <i class="fa-brands fa-apple"></i>
+          </button>
+     
+        <!-- header right-img section -->
+        <div class="w-fit ">
+          <img
+            class="lg:absolute ssm:relative  lg:w-[750px] ssm:w-[500px]  md:top-[-50px] -z-20 md:right-[20px]  "
+            src="https://www.getonecard.app/images/feature/website_familycard_64c.gif"
+            alt="backCards"
+          />
+         
+        </div>
+      </header>
+
+<!-- Information section -->
+      <section class="flex flex-col justify-center items-center  bg-white lg:bg-sky-200">
+        <h2 class="text-[60px] font-semibold bg-gradient-to-r from-blue-900 to-yellow-200 text-transparent bg-clip-text my-20 ">No Hidden Fees Ever.</h2>
+        <h3 class="text-[40px] font-semibold">No Joining Fees.
+        </h3>
+        <h3 class="text-[40px] font-semibold">  No Annual Fees.
+         </h3>
+         <h3 class="text-[40px] font-semibold"> No Rewards Redemption </h3>
+         <h3 class="text-[40px] font-semibold pb-20">Fees.</h3>
+      </section>
+    </div>
+  
+  </body>
+</html>

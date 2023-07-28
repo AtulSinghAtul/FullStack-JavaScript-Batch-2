@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Footer</title>
+
+    <script
+      src="https://kit.fontawesome.com/fb22eebb87.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            ssm: "318px",
+            // => @media (min-width: 320px) { ... }
+            px425: "425px",
+            // => @media (min-width: 425px) { ... }
+            sm: "640px",
+            // => @media (min-width: 640px) { ... }
+
+            md: "768px",
+            // => @media (min-width: 768px) { ... }
+
+            lg: "1024px",
+            // => @media (min-width: 1024px) { ... }
+
+            xl: "1280px",
+            // => @media (min-width: 1280px) { ... }
+
+            "2xl": "1536px",
+            // => @media (min-width: 1536px) { ... }
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <footer class="md:w-screen md:h-screen bg-gray-800">
+      <div
+        class="grid ssm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-5 w-11/12 h-[100%] mx-auto p-10"
+      >
+        <div class="">
+          <p class="text-gray-300 text-2xl mb-4 font-semibold">One Card</p>
+          <p class="text-gray-500 font-semibold">
+            India's best metal credit card. Built with fullstack tech. Backed by
+            the principles of simplicity, transparency, and giving back control
+            to the user.
+          </p>
+        </div>
+
+        <div class="">
+          <p class="text-gray-300 text-2xl mb-4 font-semibold">Navigation</p>
+          <p class="text-gray-500 font-semibold">Home</p>
+          <p class="text-gray-500 font-semibold">About Us</p>
+          <p class="text-gray-500 font-semibold">Careers</p>
+          <p class="text-gray-500 font-semibold">Offers</p>
+        </div>
+
+        <div class="">
+          <p class="text-gray-300 text-2xl mb-4 font-semibold">Support</p>
+          <p class="text-gray-500 font-semibold">F.A.Q.</p>
+          <p class="text-gray-500 font-semibold">Cookies Policy</p>
+          <p class="text-gray-500 font-semibold">Terms Of Service</p>
+          <p class="text-gray-500 font-semibold">Support</p>
+        </div>
+
+        <div class="flex flex-col">
+          <p class="text-gray-300 text-2xl mb-4 font-semibold">Newsletter</p>
+          <input
+            class="px-3 py-2 rounded"
+            type="text"
+            placeholder="Your email id here"
+          />
+          <button class="bg-blue-500 px-3 py-2 rounded text-gray-200 mt-2">
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
