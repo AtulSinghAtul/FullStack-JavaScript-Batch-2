@@ -1,13 +1,6 @@
-# Project - 08 Tailwind CSS
 
-# Project-08
 
-- ## In this Project I have build credit card landing page. [Project-08](https://fsjs2-12th-dec-project-08.netlify.app/)
-- ## I have build this entire UI of credit card landing page with Tailwind CSS.
-
----
-
-- ## [ Project Live Link](https://fsjs2-12th-dec-project-08.netlify.app/)
+- ## [ Project Live Link](https://64c3b68a27ebb77bfaa4fb60--steady-mermaid-0550f3.netlify.app/)
 
   > ### Social Media Links:
 

@@ -213,22 +213,21 @@ body {
 
 In this example, when the user rotates their device into portrait orientation, the font size is reduced to 14px, and when they switch to landscape orientation, the font size is increased to 18px. This ensures that the text remains legible and well-proportioned in both orientations, improving the overall user experience.
 
-### Ans. 6
+### Q. 6  replicates the one-page landing page design
 
-- ###
+- ### [ replicates the one-page landing page design](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/PPT_Assignment/module-4/assignment-questions-3/Q.-6-oneCard)
 
 ### Ans. 7
 
 - ### [CSS Grid and media queries for responsiveness](https://github.com/AtulSinghAtul/codeHelpMainFolder/tree/main/classHomeWork/imageGallery%202)
 
 ### Q.8 In this coding challenge, your task is to create an information section for the previously built OneCard webpage clone, focusing on the different modes like dark and light modes. The webpage should look different depending on the screen size: dark mode for larger screens and light mode for smaller devices. The reference images are attached below.
-
->
+- ### [dark and light modes](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/PPT_Assignment/module-4/assignment-questions-3/Q.-8-oneCard)
 
 ### Q.9 You have reached the final task of learning responsive web design, which involves designing a responsive footer. Your goal is to build a simple webpage footer that matches the design shown in the attached image. The footer should adapt to different screen sizes, ensuring optimal visibility and alignment of the content.
 
->
+- ### [designing a responsive footer](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/PPT_Assignment/module-4/assignment-questions-3/Q.-9-oneCard)
 
 ### Q.10 You have been given to create a student dashboard page that includes a student details table. The challenge lies in handling the table's display on different screen sizes. On large screens, the table should be fully visible, while on small screens, it should have an internal scroll to ensure proper visibility of information.
 
->
+- ### [table's display on different screen sizes](https://github.com/AtulSinghAtul/FullStack-JavaScript-Batch-2/tree/main/PPT_Assignment/module-4/assignment-questions-3/Q.-10-oneCard)
